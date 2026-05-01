@@ -1,5 +1,5 @@
 import { Router, Response } from 'express';
-import Anthropic from '@anthropic-ai/sdk';
+import OpenAI from 'openai';
 import { createHash } from 'crypto';
 import prisma from '../lib/prisma';
 import { authenticate, AuthRequest } from '../middleware/authenticate';
@@ -10,7 +10,7 @@ import { calculateStreak } from '../lib/streak';
 const router = Router();
 router.use(authenticate);
 
-const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
+const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
 // GET /v1/conversation/scenarios
 router.get('/scenarios', (_req, res) => {
@@ -52,14 +52,13 @@ Rules:
 - Never break character
 - Be warm, encouraging, and culturally authentic`;
 
-    const response = await anthropic.messages.create({
-      model: 'claude-sonnet-4-6',
+    const response = await openai.chat.completions.create({
+      model: 'gpt-4.5-preview',
       max_tokens: 300,
-      system: systemPrompt,
-      messages,
+      messages: [{ role: 'system', content: systemPrompt }, ...messages],
     });
 
-    const reply = response.content[0].type === 'text' ? response.content[0].text : '';
+    const reply = response.choices[0]?.message?.content ?? '';
 
     // Update or create conversation record and award XP
     let convId = conversationId;
