@@ -1,0 +1,29 @@
+[
+  {
+    "word": "Mahal kita",
+    "phonetic": "ma-hal ki-ta",
+    "meaning": "I love you",
+    "exampleFil": "Mahal kita, nanay.",
+    "exampleEng": "I love you, mum.",
+    "category": "emotions",
+    "difficulty": "beginner"
+  },
+  {
+    "word": "Natutulog",
+    "phonetic": "na-tu-tu-log",
+    "meaning": "Sleeping / Asleep",
+    "exampleFil": "Natutulog na ang bata.",
+    "exampleEng": "The child is already sleeping.",
+    "category": "common phrases",
+    "difficulty": "beginner"
+  },
+  {
+    "word": "Malayo",
+    "phonetic": "ma-la-yo",
+    "meaning": "Far / Distant",
+    "exampleFil": "Malayo pa ang aming bahay.",
+    "exampleEng": "Our house is still far.",
+    "category": "home",
+    "difficulty": "beginner"
+  }
+]
