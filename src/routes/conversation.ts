@@ -53,7 +53,7 @@ Rules:
 - Be warm, encouraging, and culturally authentic`;
 
     const response = await openai.chat.completions.create({
-      model: 'gpt-4.5-preview',
+      model: 'gpt-4.1',
       max_tokens: 300,
       messages: [{ role: 'system', content: systemPrompt }, ...messages],
     });
