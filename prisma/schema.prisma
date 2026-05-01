@@ -24,6 +24,7 @@ model User {
   userLessons          UserLesson[]
   conversations        Conversation[]
   passwordResetTokens  PasswordResetToken[]
+  studySessions        StudySession[]
 
   @@map("users")
 }
@@ -47,18 +48,20 @@ enum Difficulty {
 }
 
 model Card {
-  id          String      @id @default(uuid())
+  id          String        @id @default(uuid())
   word        String
   phonetic    String?
   meaning     String
   exampleFil  String?
   exampleEng  String?
   audioUrl    String?
+  imageUrl    String?
   category    String
   difficulty  Difficulty
-  createdAt   DateTime    @default(now())
-  updatedAt   DateTime    @updatedAt
+  createdAt   DateTime      @default(now())
+  updatedAt   DateTime      @updatedAt
   userCards   UserCard[]
+  sessionCards SessionCard[]
 
   @@map("cards")
 }
@@ -136,4 +139,31 @@ model PasswordResetToken {
   user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
 
   @@map("password_reset_tokens")
+}
+
+model StudySession {
+  id          String        @id @default(uuid())
+  userId      String
+  mode        String        @default("flashcard")
+  category    String?
+  cardCount   Int
+  xpEarned    Int           @default(0)
+  startedAt   DateTime      @default(now())
+  completedAt DateTime?
+  user        User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  cards       SessionCard[]
+
+  @@map("study_sessions")
+}
+
+model SessionCard {
+  id         String       @id @default(uuid())
+  sessionId  String
+  cardId     String
+  rating     String
+  reviewedAt DateTime     @default(now())
+  session    StudySession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  card       Card         @relation(fields: [cardId], references: [id], onDelete: Cascade)
+
+  @@map("session_cards")
 }

@@ -5,6 +5,7 @@ import rateLimit from 'express-rate-limit';
 import dotenv from 'dotenv';
 import authRoutes from './routes/auth';
 import cardRoutes from './routes/cards';
+import sessionRoutes from './routes/sessions';
 import conversationRoutes from './routes/conversation';
 import lessonRoutes from './routes/lessons';
 import userRoutes from './routes/user';
@@ -33,6 +34,7 @@ app.get('/health', (_req, res) => {
 
 app.use('/v1/auth', authRoutes);
 app.use('/v1/cards', cardRoutes);
+app.use('/v1/sessions', sessionRoutes);
 app.use('/v1/conversation', conversationRoutes);
 app.use('/v1/lessons', lessonRoutes);
 app.use('/v1/user', userRoutes);
