@@ -19,11 +19,11 @@ function resolveFiles(target: string): string[] {
   const stat = statSync(abs);
   if (stat.isDirectory()) {
     return readdirSync(abs)
-      .filter((f) => extname(f) === '.json')
       .sort()
-      .map((f) => join(abs, f));
+      .flatMap((f) => resolveFiles(join(abs, f)))
+      .filter((f) => extname(f) === '.json');
   }
-  return [abs];
+  return extname(abs) === '.json' ? [abs] : [];
 }
 
 async function importFile(filePath: string): Promise<{ created: number; updated: number; errors: string[] }> {
