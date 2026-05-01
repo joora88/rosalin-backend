@@ -19,7 +19,11 @@ model User {
   level           Int            @default(1)
   createdAt       DateTime       @default(now())
   updatedAt       DateTime       @updatedAt
-  refreshTokens   RefreshToken[]
+  refreshTokens        RefreshToken[]
+  userCards            UserCard[]
+  userLessons          UserLesson[]
+  conversations        Conversation[]
+  passwordResetTokens  PasswordResetToken[]
 
   @@map("users")
 }
@@ -34,4 +38,102 @@ model RefreshToken {
   user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
 
   @@map("refresh_tokens")
+}
+
+enum Difficulty {
+  beginner
+  intermediate
+  advanced
+}
+
+model Card {
+  id          String      @id @default(uuid())
+  word        String
+  phonetic    String?
+  meaning     String
+  exampleFil  String?
+  exampleEng  String?
+  audioUrl    String?
+  category    String
+  difficulty  Difficulty
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+  userCards   UserCard[]
+
+  @@map("cards")
+}
+
+model UserCard {
+  userId       String
+  cardId       String
+  easeFactor   Float    @default(2.5)
+  interval     Int      @default(1)
+  repetitions  Int      @default(0)
+  nextReview   DateTime @default(now())
+  lastReviewed DateTime?
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  card         Card     @relation(fields: [cardId], references: [id], onDelete: Cascade)
+
+  @@id([userId, cardId])
+  @@map("user_cards")
+}
+
+model Lesson {
+  id          String      @id @default(uuid())
+  title       String
+  slug        String      @unique
+  contentJson Json
+  orderIndex  Int
+  difficulty  Difficulty
+  createdAt   DateTime    @default(now())
+  userLessons UserLesson[]
+
+  @@map("lessons")
+}
+
+model UserLesson {
+  userId      String
+  lessonId    String
+  completedAt DateTime
+  quizScore   Int
+  xpAwarded   Int
+  user        User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  lesson      Lesson  @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+
+  @@id([userId, lessonId])
+  @@map("user_lessons")
+}
+
+model Conversation {
+  id         String   @id @default(uuid())
+  userId     String
+  scenarioId String
+  startedAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+  turnCount  Int      @default(0)
+  xpAwarded  Int      @default(0)
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("conversations")
+}
+
+model TtsCache {
+  id        String   @id @default(uuid())
+  textHash  String   @unique
+  audioUrl  String
+  createdAt DateTime @default(now())
+
+  @@map("tts_cache")
+}
+
+model PasswordResetToken {
+  id        String   @id @default(uuid())
+  userId    String
+  tokenHash String
+  expiresAt DateTime
+  used      Boolean  @default(false)
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("password_reset_tokens")
 }
