@@ -3,7 +3,7 @@ import OpenAI from 'openai';
 import { createHash } from 'crypto';
 import prisma from '../lib/prisma';
 import { authenticate, AuthRequest } from '../middleware/authenticate';
-import { scenarios } from '../config/scenarios';
+import { scenarios, characters } from '../config/scenarios';
 import { levelFromXp, XP } from '../lib/xp';
 import { calculateStreak } from '../lib/streak';
 
@@ -12,9 +12,15 @@ router.use(authenticate);
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
-// GET /v1/conversation/scenarios
+// GET /v1/conversation/scenarios — returns all scenarios with character info
 router.get('/scenarios', (_req, res) => {
-  res.json(scenarios.map(({ id, title, objective, openingLine }) => ({ id, title, objective, openingLine })));
+  res.json(scenarios.map(({ id, title, objective, openingLine, character }) => ({
+    id,
+    title,
+    objective,
+    openingLine,
+    character: { id: character.id, name: character.name },
+  })));
 });
 
 // POST /v1/conversation/message
@@ -38,7 +44,8 @@ router.post('/message', async (req: AuthRequest, res: Response) => {
   }
 
   try {
-    const systemPrompt = `You are Ate Maya, a warm, patient, and encouraging Filipino conversation tutor.
+    const characterName = scenario.character.name;
+    const systemPrompt = `You are ${characterName}, a warm, patient, and encouraging Filipino conversation tutor.
 
 Scenario: ${scenario.context}
 Objective: ${scenario.objective}
@@ -92,13 +99,17 @@ Rules:
 
 // POST /v1/conversation/tts
 router.post('/tts', async (req: AuthRequest, res: Response) => {
-  const { text } = req.body as { text: string };
+  const { text, characterId } = req.body as { text: string; characterId?: string };
   if (!text) {
     res.status(400).json({ error: 'Text required' });
     return;
   }
 
-  const textHash = createHash('sha256').update(text).digest('hex');
+  const character = characterId ? characters[characterId] : null;
+  const voiceId = character?.voiceId || process.env.ELEVENLABS_VOICE_ID || 'EXAVITQu4vr4xnSDxMaL';
+
+  // Include voiceId in cache key so different characters don't share cached audio
+  const textHash = createHash('sha256').update(`${voiceId}:${text}`).digest('hex');
 
   try {
     const cached = await prisma.ttsCache.findUnique({ where: { textHash } });
@@ -108,14 +119,13 @@ router.post('/tts', async (req: AuthRequest, res: Response) => {
     }
 
     const ELEVENLABS_API_KEY = process.env.ELEVENLABS_API_KEY;
-    const VOICE_ID = process.env.ELEVENLABS_VOICE_ID || 'EXAVITQu4vr4xnSDxMaL';
 
     if (!ELEVENLABS_API_KEY) {
       res.status(503).json({ error: 'TTS not configured' });
       return;
     }
 
-    const response = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${VOICE_ID}`, {
+    const response = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${voiceId}`, {
       method: 'POST',
       headers: {
         'xi-api-key': ELEVENLABS_API_KEY,
@@ -129,7 +139,6 @@ router.post('/tts', async (req: AuthRequest, res: Response) => {
       return;
     }
 
-    // Return audio directly as base64 for MVP (Phase 2 will use R2/CDN storage)
     const audioBuffer = await response.arrayBuffer();
     const audioBase64 = Buffer.from(audioBuffer).toString('base64');
     const audioUrl = `data:audio/mpeg;base64,${audioBase64}`;
