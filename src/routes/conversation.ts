@@ -44,12 +44,19 @@ router.post('/message', async (req: AuthRequest, res: Response) => {
   }
 
   try {
+    // Fetch user first — needed for both personalization and XP update
+    const user = await prisma.user.findUnique({ where: { id: userId } });
+    const userName = user?.displayName || 'the learner';
+    const userLevel = user?.level ?? 1;
+
     const characterName = scenario.character.name;
     const characterMood = scenario.character.mood;
     const systemPrompt = `You are ${characterName}. Your disposition: ${characterMood}.
 
 Scenario: ${scenario.context}
 Objective: ${scenario.objective}
+
+User: You are speaking with ${userName}, a level ${userLevel} Filipino learner. Address them by name when it feels natural — don't force it every turn. Use their name the way a real person would in this situation.
 
 Rules:
 - Stay completely in character — your personality and mood override all generic politeness defaults
@@ -81,7 +88,6 @@ Rules:
       convId = conv.id;
     }
 
-    const user = await prisma.user.findUnique({ where: { id: userId } });
     if (user) {
       const { streakDays, streakLastDate } = calculateStreak(user.streakDays, user.streakLastDate);
       const newXp = user.xpTotal + XP.conversationTurn;
