@@ -45,19 +45,19 @@ router.post('/message', async (req: AuthRequest, res: Response) => {
 
   try {
     const characterName = scenario.character.name;
-    const systemPrompt = `You are ${characterName}, a warm, patient, and encouraging Filipino conversation tutor.
+    const characterMood = scenario.character.mood;
+    const systemPrompt = `You are ${characterName}. Your disposition: ${characterMood}.
 
 Scenario: ${scenario.context}
 Objective: ${scenario.objective}
 
 Rules:
-- Respond naturally in Filipino/English code-switching (mix both, as real Filipinos do)
+- Stay completely in character — your personality and mood override all generic politeness defaults
+- Respond in a way that fits your character's speech style (some characters code-switch Filipino/English, others use formal or old-fashioned Tagalog, others use simple slang — follow what the scenario describes)
 - Keep responses concise — 2-4 sentences max
-- Gently correct any Filipino mistakes the user makes, inline and kindly
-- Introduce exactly one new Filipino word or phrase per turn, briefly explaining it
-- End each response with the format: [EN: english translation of your response]
-- Never break character
-- Be warm, encouraging, and culturally authentic`;
+- When the user makes a Filipino mistake, correct it in a way that fits your character (blunt, impatient, amused, gentle — whatever is true to who you are)
+- Introduce exactly one new Filipino word or phrase per turn, worked naturally into your response
+- Never break character`;
 
     const response = await openai.chat.completions.create({
       model: 'gpt-4.1',
@@ -146,6 +146,47 @@ router.post('/tts', async (req: AuthRequest, res: Response) => {
     await prisma.ttsCache.create({ data: { textHash, audioUrl } });
 
     res.json({ audioUrl });
+  } catch {
+    res.status(500).json({ error: 'Server error' });
+  }
+});
+
+// POST /v1/conversation/translate — word or sentence translation via DeepL
+router.post('/translate', async (req: AuthRequest, res: Response) => {
+  const { text } = req.body as { text: string };
+  if (!text?.trim()) {
+    res.status(400).json({ error: 'Text required' });
+    return;
+  }
+
+  const DEEPL_API_KEY = process.env.DEEPL_API_KEY;
+  if (!DEEPL_API_KEY) {
+    res.status(503).json({ error: 'Translation not configured' });
+    return;
+  }
+
+  // Free-tier keys end with :fx and use a different subdomain
+  const deeplUrl = DEEPL_API_KEY.endsWith(':fx')
+    ? 'https://api-free.deepl.com/v2/translate'
+    : 'https://api.deepl.com/v2/translate';
+
+  try {
+    const response = await fetch(deeplUrl, {
+      method: 'POST',
+      headers: {
+        'Authorization': `DeepL-Auth-Key ${DEEPL_API_KEY}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ text: [text], target_lang: 'EN' }),
+    });
+
+    if (!response.ok) {
+      res.status(502).json({ error: 'Translation failed' });
+      return;
+    }
+
+    const data = await response.json() as { translations: { text: string }[] };
+    res.json({ translation: data.translations[0]?.text ?? '' });
   } catch {
     res.status(500).json({ error: 'Server error' });
   }
