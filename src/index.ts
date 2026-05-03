@@ -4,11 +4,13 @@ import helmet from 'helmet';
 import rateLimit from 'express-rate-limit';
 import dotenv from 'dotenv';
 import authRoutes from './routes/auth';
+import adminRoutes from './routes/admin';
 import cardRoutes from './routes/cards';
 import sessionRoutes from './routes/sessions';
 import conversationRoutes from './routes/conversation';
 import lessonRoutes from './routes/lessons';
 import userRoutes from './routes/user';
+import conjugationRoutes from './routes/conjugations';
 
 dotenv.config();
 
@@ -33,11 +35,13 @@ app.get('/health', (_req, res) => {
 });
 
 app.use('/v1/auth', authRoutes);
+app.use('/v1/admin', adminRoutes);
 app.use('/v1/cards', cardRoutes);
 app.use('/v1/sessions', sessionRoutes);
 app.use('/v1/conversation', conversationRoutes);
 app.use('/v1/lessons', lessonRoutes);
 app.use('/v1/user', userRoutes);
+app.use('/v1/conjugations', conjugationRoutes);
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);

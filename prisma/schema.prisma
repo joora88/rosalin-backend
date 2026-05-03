@@ -7,12 +7,19 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+enum UserStatus {
+  pending
+  approved
+  rejected
+}
+
 model User {
   id              String         @id @default(uuid())
   email           String         @unique
   passwordHash    String?
   displayName     String?
   googleId        String?
+  status          UserStatus     @default(pending)
   xpTotal         Int            @default(0)
   streakDays      Int            @default(0)
   streakLastDate  DateTime?
@@ -58,6 +65,8 @@ model Card {
   imageUrl    String?
   category    String
   difficulty  Difficulty
+  unit        String?
+  lessonSlug  String?
   createdAt   DateTime      @default(now())
   updatedAt   DateTime      @updatedAt
   userCards   UserCard[]
@@ -88,6 +97,7 @@ model Lesson {
   contentJson Json
   orderIndex  Int
   difficulty  Difficulty
+  unit        String?
   createdAt   DateTime    @default(now())
   userLessons UserLesson[]
 

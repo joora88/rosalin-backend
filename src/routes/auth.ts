@@ -36,16 +36,11 @@ router.post('/register', async (req: Request, res: Response) => {
     }
 
     const passwordHash = await bcrypt.hash(password, 12);
-    const user = await prisma.user.create({
-      data: { email, passwordHash, displayName },
+    await prisma.user.create({
+      data: { email, passwordHash, displayName, status: 'pending' },
     });
 
-    const { accessToken, refreshToken } = generateTokens(user.id);
-    await prisma.refreshToken.create({
-      data: { userId: user.id, tokenHash: hashToken(refreshToken), expiresAt: refreshTokenExpiry() },
-    });
-
-    res.status(201).json({ accessToken, refreshToken });
+    res.status(201).json({ pending: true });
   } catch {
     res.status(500).json({ error: 'Server error' });
   }
@@ -69,6 +64,15 @@ router.post('/login', async (req: Request, res: Response) => {
     const valid = await bcrypt.compare(password, user.passwordHash);
     if (!valid) {
       res.status(401).json({ error: 'Invalid credentials' });
+      return;
+    }
+
+    if (user.status === 'pending') {
+      res.status(403).json({ error: 'Account pending approval' });
+      return;
+    }
+    if (user.status === 'rejected') {
+      res.status(403).json({ error: 'Account not approved' });
       return;
     }
 
