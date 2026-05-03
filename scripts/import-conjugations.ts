@@ -126,7 +126,7 @@ async function importFile(filePath: string, force: boolean): Promise<{ created: 
           }
         }
       }
-    });
+    }, { timeout: 30000 });
   } catch (e) {
     return { created: 0, updated: 0, errors: [`Error importing "${verb.id}": ${e}`] };
   }
