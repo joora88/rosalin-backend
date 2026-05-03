@@ -68,7 +68,7 @@ router.get('/users', adminAuth, async (_req: Request, res: Response) => {
 
 // PATCH /v1/admin/users/:id
 router.patch('/users/:id', adminAuth, async (req: Request, res: Response) => {
-  const { id } = req.params;
+  const id = req.params.id as string;
   const { status } = req.body;
 
   if (status !== 'approved' && status !== 'rejected' && status !== 'pending') {
