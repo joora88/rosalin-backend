@@ -1,0 +1,180 @@
+{
+  "id": "bayad",
+  "root": "bayad",
+  "english": "to pay",
+  "category": "shopping",
+  "notes": "For mag- verbs, the infinitive and contemplated forms are identical. Locative (-an) focuses on the person/place being paid. Beneficiary (i-) focuses on the money/thing being paid.",
+  "focusTypes": {
+    "actor": {
+      "affix": "mag-",
+      "forms": {
+        "infinitive": {
+          "word": "magbayad",
+          "examples": [
+            {
+              "tagalog": "Kailangan kong magbayad ng kuryente ngayong buwan.",
+              "english": "I need to pay the electricity bill this month."
+            },
+            {
+              "tagalog": "Magbayad ka bago ka umalis sa tindahan.",
+              "english": "Pay before you leave the store."
+            }
+          ]
+        },
+        "completed": {
+          "word": "nagbayad",
+          "examples": [
+            {
+              "tagalog": "Nagbayad siya ng renta kahapon.",
+              "english": "She paid the rent yesterday."
+            },
+            {
+              "tagalog": "Nagbayad kami ng bayarin sa opisina.",
+              "english": "We paid the bills at the office."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "nagbabayad",
+          "examples": [
+            {
+              "tagalog": "Nagbabayad siya ng utang tuwing sahod.",
+              "english": "He pays his debt every payday."
+            },
+            {
+              "tagalog": "Nagbabayad kami ng renta buwanang-buwanan.",
+              "english": "We pay rent every month."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "magbayad",
+          "examples": [
+            {
+              "tagalog": "Magbayad siya ng tuition fee bukas.",
+              "english": "She will pay the tuition fee tomorrow."
+            },
+            {
+              "tagalog": "Magbayad kami ng installment sa katapusan ng buwan.",
+              "english": "We will pay the installment at the end of the month."
+            }
+          ]
+        }
+      }
+    },
+    "locative": {
+      "affix": "-an",
+      "forms": {
+        "infinitive": {
+          "word": "bayaran",
+          "examples": [
+            {
+              "tagalog": "Bayaran mo ang tindera.",
+              "english": "Pay the shopkeeper."
+            },
+            {
+              "tagalog": "Kailangan naming bayaran ang landlord ngayong araw.",
+              "english": "We need to pay the landlord today."
+            }
+          ]
+        },
+        "completed": {
+          "word": "binayaran",
+          "examples": [
+            {
+              "tagalog": "Binayaran niya ang manggagawa nang tama.",
+              "english": "He paid the worker the correct amount."
+            },
+            {
+              "tagalog": "Binayaran ko na ang karinderya.",
+              "english": "I already paid the eatery."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "binabayaran",
+          "examples": [
+            {
+              "tagalog": "Binabayaran niya ang plomero para sa trabaho.",
+              "english": "She is paying the plumber for his work."
+            },
+            {
+              "tagalog": "Binabayaran ng negosyo ang mga empleyado tuwing ika-15.",
+              "english": "The business is paying the employees every 15th."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "babayaran",
+          "examples": [
+            {
+              "tagalog": "Babayaran niya ang kaibigan niya bukas.",
+              "english": "He will pay his friend tomorrow."
+            },
+            {
+              "tagalog": "Babayaran namin ang kontraktor pagkatapos ng trabaho.",
+              "english": "We will pay the contractor after the work."
+            }
+          ]
+        }
+      }
+    },
+    "beneficiary": {
+      "affix": "i-",
+      "forms": {
+        "infinitive": {
+          "word": "ibayad",
+          "examples": [
+            {
+              "tagalog": "Ibayad mo ang pera sa kahera.",
+              "english": "Give the money to the cashier."
+            },
+            {
+              "tagalog": "Ibayad mo ang halagang ito sa opisina.",
+              "english": "Pay this amount to the office."
+            }
+          ]
+        },
+        "completed": {
+          "word": "ibinayad",
+          "examples": [
+            {
+              "tagalog": "Ibinayad niya ang isang libong piso sa tindahan.",
+              "english": "He paid one thousand pesos to the store."
+            },
+            {
+              "tagalog": "Ibinayad nila ang buong halaga ng utang.",
+              "english": "They paid the full amount of the debt."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "ibinabayad",
+          "examples": [
+            {
+              "tagalog": "Ibinabayad niya ang kanyang sahod para sa renta.",
+              "english": "She is using her salary to pay rent."
+            },
+            {
+              "tagalog": "Ibinabayad ng estudyante ang bayad-aral sa punong-guro.",
+              "english": "The student is paying the tuition to the principal."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "ibibayad",
+          "examples": [
+            {
+              "tagalog": "Ibibayad ko ang lahat ng utang ko bukas.",
+              "english": "I will pay all my debts tomorrow."
+            },
+            {
+              "tagalog": "Ibibayad niya ang pera sa umaga.",
+              "english": "She will pay the money in the morning."
+            }
+          ]
+        }
+      }
+    }
+  }
+}

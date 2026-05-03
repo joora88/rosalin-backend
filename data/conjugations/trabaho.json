@@ -1,0 +1,65 @@
+{
+  "id": "trabaho",
+  "root": "trabaho",
+  "english": "to work",
+  "category": "work & leisure",
+  "focusTypes": {
+    "actor": {
+      "affix": "mag-",
+      "forms": {
+        "infinitive": {
+          "word": "magtrabaho",
+          "examples": [
+            {
+              "tagalog": "Kailangan kong magtrabaho para sa pamilya.",
+              "english": "I need to work for my family."
+            },
+            {
+              "tagalog": "Magtrabaho ka nang mabuti.",
+              "english": "Work hard."
+            }
+          ]
+        },
+        "completed": {
+          "word": "nagtrabaho",
+          "examples": [
+            {
+              "tagalog": "Nagtrabaho siya nang maraming taon sa Maynila.",
+              "english": "He worked for many years in Manila."
+            },
+            {
+              "tagalog": "Nagtrabaho kami buong araw.",
+              "english": "We worked all day."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "nagtatrabaho",
+          "examples": [
+            {
+              "tagalog": "Nagtatrabaho siya sa ospital.",
+              "english": "She is working at the hospital."
+            },
+            {
+              "tagalog": "Nagtatrabaho ang tatay sa opisina.",
+              "english": "Father is working at the office."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "magtrabaho",
+          "examples": [
+            {
+              "tagalog": "Magtrabaho siya sa bagong kumpanya bukas.",
+              "english": "He will work at the new company tomorrow."
+            },
+            {
+              "tagalog": "Magtrabaho kami nang maaga bukas.",
+              "english": "We will work early tomorrow."
+            }
+          ]
+        }
+      }
+    }
+  }
+}

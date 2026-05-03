@@ -1,0 +1,122 @@
+{
+  "id": "inom",
+  "root": "inom",
+  "english": "to drink",
+  "category": "daily actions",
+  "focusTypes": {
+    "actor": {
+      "affix": "um-",
+      "forms": {
+        "infinitive": {
+          "word": "uminom",
+          "examples": [
+            {
+              "tagalog": "Gusto ko uminom ng gatas.",
+              "english": "I want to drink milk."
+            },
+            {
+              "tagalog": "Uminom ka ng tubig.",
+              "english": "Drink some water."
+            }
+          ]
+        },
+        "completed": {
+          "word": "uminom",
+          "examples": [
+            {
+              "tagalog": "Uminom siya ng gamot kahapon.",
+              "english": "She drank her medicine yesterday."
+            },
+            {
+              "tagalog": "Uminom kami ng kape sa umaga.",
+              "english": "We drank coffee in the morning."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "umiinom",
+          "examples": [
+            {
+              "tagalog": "Umiinom siya ng tsaa ngayon.",
+              "english": "She is drinking tea right now."
+            },
+            {
+              "tagalog": "Umiinom ang bata ng gatas tuwing gabi.",
+              "english": "The child drinks milk every night."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "iinom",
+          "examples": [
+            {
+              "tagalog": "Iinom ako ng calamansi juice mamaya.",
+              "english": "I will drink calamansi juice later."
+            },
+            {
+              "tagalog": "Iinom siya ng gamot bago matulog.",
+              "english": "She will drink her medicine before sleeping."
+            }
+          ]
+        }
+      }
+    },
+    "object": {
+      "affix": "-in",
+      "forms": {
+        "infinitive": {
+          "word": "inumin",
+          "examples": [
+            {
+              "tagalog": "Inumin mo ang iyong gamot.",
+              "english": "Drink your medicine."
+            },
+            {
+              "tagalog": "Huwag mong inumin ang malamig na tubig.",
+              "english": "Don't drink cold water."
+            }
+          ]
+        },
+        "completed": {
+          "word": "ininom",
+          "examples": [
+            {
+              "tagalog": "Ininom ng bata ang buong bote ng gatas.",
+              "english": "The child drank the whole bottle of milk."
+            },
+            {
+              "tagalog": "Ininom ko ang kape na inihanda ng nanay.",
+              "english": "I drank the coffee that mother prepared."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "iniinom",
+          "examples": [
+            {
+              "tagalog": "Iniinom ng lolo ang kanyang gamot.",
+              "english": "Grandfather is drinking his medicine."
+            },
+            {
+              "tagalog": "Iniinom ng mga bata ang mainit na tsokolate.",
+              "english": "The children are drinking hot chocolate."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "iinumin",
+          "examples": [
+            {
+              "tagalog": "Iinumin ko ang buong bote ng tubig.",
+              "english": "I will drink the whole bottle of water."
+            },
+            {
+              "tagalog": "Iinumin ng pasyente ang gamot bukas.",
+              "english": "The patient will drink the medicine tomorrow."
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "id": "hanap",
+  "root": "hanap",
+  "english": "to look for / find",
+  "category": "daily actions",
+  "focusTypes": {
+    "actor": {
+      "affix": "mag-",
+      "forms": {
+        "infinitive": {
+          "word": "maghanap",
+          "examples": [
+            {
+              "tagalog": "Kailangan naming maghanap ng trabaho.",
+              "english": "We need to look for work."
+            },
+            {
+              "tagalog": "Maghanap ka ng iyong mga susi.",
+              "english": "Look for your keys."
+            }
+          ]
+        },
+        "completed": {
+          "word": "naghanap",
+          "examples": [
+            {
+              "tagalog": "Naghanap kami ng bagong bahay.",
+              "english": "We looked for a new house."
+            },
+            {
+              "tagalog": "Naghanap siya ng trabaho nang matagal.",
+              "english": "She looked for work for a long time."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "naghahanap",
+          "examples": [
+            {
+              "tagalog": "Naghahanap siya ng kanyang bag.",
+              "english": "She is looking for her bag."
+            },
+            {
+              "tagalog": "Naghahanap kami ng mura at magandang lugar.",
+              "english": "We are looking for a cheap and nice place."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "maghanap",
+          "examples": [
+            {
+              "tagalog": "Maghanap kami ng solusyon bukas.",
+              "english": "We will look for a solution tomorrow."
+            },
+            {
+              "tagalog": "Maghanap siya ng bagong titser.",
+              "english": "She will look for a new teacher."
+            }
+          ]
+        }
+      }
+    },
+    "object": {
+      "affix": "-in",
+      "forms": {
+        "infinitive": {
+          "word": "hanapin",
+          "examples": [
+            {
+              "tagalog": "Hanapin mo ang iyong aklat.",
+              "english": "Look for your book."
+            },
+            {
+              "tagalog": "Kailangan naming hanapin ang tamang daan.",
+              "english": "We need to find the right road."
+            }
+          ]
+        },
+        "completed": {
+          "word": "hinanap",
+          "examples": [
+            {
+              "tagalog": "Hinanap niya ang kanyang alahas sa buong bahay.",
+              "english": "She looked for her jewelry all over the house."
+            },
+            {
+              "tagalog": "Hinanap ng bata ang kanyang laruan.",
+              "english": "The child looked for his toy."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "hinahanap",
+          "examples": [
+            {
+              "tagalog": "Hinahanap ko ang aking telepono.",
+              "english": "I am looking for my phone."
+            },
+            {
+              "tagalog": "Hinahanap nila ang kanilang alagang hayop.",
+              "english": "They are looking for their pet."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "hahanapin",
+          "examples": [
+            {
+              "tagalog": "Hahanapin ko ang tamang sagot.",
+              "english": "I will look for the right answer."
+            },
+            {
+              "tagalog": "Hahanapin nila ang nawawalang bata.",
+              "english": "They will look for the missing child."
+            }
+          ]
+        }
+      }
+    }
+  }
+}

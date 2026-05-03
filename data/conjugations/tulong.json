@@ -1,0 +1,123 @@
+{
+  "id": "tulong",
+  "root": "tulong",
+  "english": "to help",
+  "category": "common phrases",
+  "notes": "For um- verbs, the infinitive and completed forms are identical. The locative (-an) form focuses on the person being helped.",
+  "focusTypes": {
+    "actor": {
+      "affix": "um-",
+      "forms": {
+        "infinitive": {
+          "word": "tumulong",
+          "examples": [
+            {
+              "tagalog": "Gusto ko tumulong sa inyong proyekto.",
+              "english": "I want to help with your project."
+            },
+            {
+              "tagalog": "Tumulong ka sa nanay mo sa bahay.",
+              "english": "Help your mother at home."
+            }
+          ]
+        },
+        "completed": {
+          "word": "tumulong",
+          "examples": [
+            {
+              "tagalog": "Tumulong siya sa paglilinis ng bahay.",
+              "english": "She helped with cleaning the house."
+            },
+            {
+              "tagalog": "Tumulong ang mga kapitbahay sa nasunog.",
+              "english": "The neighbors helped the fire victims."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "tumutulong",
+          "examples": [
+            {
+              "tagalog": "Tumutulong siya sa aming negosyo tuwing weekend.",
+              "english": "He helps in our business every weekend."
+            },
+            {
+              "tagalog": "Tumutulong ang mga boluntaryo sa pamamahagi ng pagkain.",
+              "english": "The volunteers are helping with distributing food."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "tutulong",
+          "examples": [
+            {
+              "tagalog": "Tutulong kami sa paglilinis ng parke bukas.",
+              "english": "We will help with cleaning the park tomorrow."
+            },
+            {
+              "tagalog": "Tutulong siya sa iyo sa iyong takdang-aralin.",
+              "english": "She will help you with your homework."
+            }
+          ]
+        }
+      }
+    },
+    "locative": {
+      "affix": "-an",
+      "forms": {
+        "infinitive": {
+          "word": "tulungan",
+          "examples": [
+            {
+              "tagalog": "Tulungan mo ang matanda na tumawid ng daan.",
+              "english": "Help the elderly person cross the road."
+            },
+            {
+              "tagalog": "Gusto kong tulungan siya sa problema niya.",
+              "english": "I want to help him with his problem."
+            }
+          ]
+        },
+        "completed": {
+          "word": "tinulungan",
+          "examples": [
+            {
+              "tagalog": "Tinulungan niya ang kapitbahay sa pagbabago ng bahay.",
+              "english": "She helped the neighbor renovate the house."
+            },
+            {
+              "tagalog": "Tinulungan ng guro ang estudyante sa kanyang takdang-aralin.",
+              "english": "The teacher helped the student with his homework."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "tinutulungan",
+          "examples": [
+            {
+              "tagalog": "Tinutulungan niya ang kapatid niya sa homework.",
+              "english": "He is helping his sibling with the homework."
+            },
+            {
+              "tagalog": "Tinutulungan ng doktor ang mga pasyente araw-araw.",
+              "english": "The doctor is helping patients every day."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "tutulungan",
+          "examples": [
+            {
+              "tagalog": "Tutulungan ko siya bukas sa paglilipat ng gamit.",
+              "english": "I will help her tomorrow with moving things."
+            },
+            {
+              "tagalog": "Tutulungan namin ang organisasyon sa kanilang programa.",
+              "english": "We will help the organization with their program."
+            }
+          ]
+        }
+      }
+    }
+  }
+}

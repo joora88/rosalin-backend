@@ -1,0 +1,180 @@
+{
+  "id": "tanong",
+  "root": "tanong",
+  "english": "to ask",
+  "category": "common phrases",
+  "notes": "For mag- verbs, the infinitive and contemplated forms are identical. Object (-in) focuses on what is asked; locative (-an) focuses on the person being asked.",
+  "focusTypes": {
+    "actor": {
+      "affix": "mag-",
+      "forms": {
+        "infinitive": {
+          "word": "magtanong",
+          "examples": [
+            {
+              "tagalog": "Kailangan ko magtanong ng daan.",
+              "english": "I need to ask for directions."
+            },
+            {
+              "tagalog": "Magtanong ka sa guro kung hindi ka nakakaintindi.",
+              "english": "Ask the teacher if you don't understand."
+            }
+          ]
+        },
+        "completed": {
+          "word": "nagtanong",
+          "examples": [
+            {
+              "tagalog": "Nagtanong siya ng daan sa pulis.",
+              "english": "She asked the police officer for directions."
+            },
+            {
+              "tagalog": "Nagtanong kami ng presyo sa tindahan.",
+              "english": "We asked about the price at the store."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "nagtatanong",
+          "examples": [
+            {
+              "tagalog": "Nagtatanong siya ng maraming bagay—curious talaga siya.",
+              "english": "He is asking a lot of things—he is really curious."
+            },
+            {
+              "tagalog": "Nagtatanong ang turista ng daan papunta sa simbahan.",
+              "english": "The tourist is asking for directions to the church."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "magtanong",
+          "examples": [
+            {
+              "tagalog": "Magtanong siya sa opisina bukas.",
+              "english": "She will ask at the office tomorrow."
+            },
+            {
+              "tagalog": "Magtanong kami sa doktor tungkol sa gamot.",
+              "english": "We will ask the doctor about the medicine."
+            }
+          ]
+        }
+      }
+    },
+    "object": {
+      "affix": "-in",
+      "forms": {
+        "infinitive": {
+          "word": "tanungin",
+          "examples": [
+            {
+              "tagalog": "Tanungin mo siya kung kailan siya darating.",
+              "english": "Ask him when he will arrive."
+            },
+            {
+              "tagalog": "Huwag mong tanungin ang edad ng isang babae.",
+              "english": "Don't ask a woman her age."
+            }
+          ]
+        },
+        "completed": {
+          "word": "tinanong",
+          "examples": [
+            {
+              "tagalog": "Tinanong ko siya kung nasaan ang CR.",
+              "english": "I asked him where the restroom is."
+            },
+            {
+              "tagalog": "Tinanong ng pulis ang saksi tungkol sa aksidente.",
+              "english": "The police asked the witness about the accident."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "tinatanong",
+          "examples": [
+            {
+              "tagalog": "Tinatanong niya ang guro kung tama ang sagot niya.",
+              "english": "She is asking the teacher if her answer is correct."
+            },
+            {
+              "tagalog": "Tinatanong ng bata ang lahat ng bagay na nakikita niya.",
+              "english": "The child is asking about everything he sees."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "tatanungin",
+          "examples": [
+            {
+              "tagalog": "Tatanungin ko siya bukas tungkol sa plano.",
+              "english": "I will ask her tomorrow about the plan."
+            },
+            {
+              "tagalog": "Tatanungin namin ang doktor tungkol sa gamot.",
+              "english": "We will ask the doctor about the medicine."
+            }
+          ]
+        }
+      }
+    },
+    "locative": {
+      "affix": "-an",
+      "forms": {
+        "infinitive": {
+          "word": "tanungan",
+          "examples": [
+            {
+              "tagalog": "Tanungan mo ang titser kung hindi ka sigurado.",
+              "english": "Ask the teacher if you are not sure."
+            },
+            {
+              "tagalog": "Tanungan mo ang kapitbahay tungkol doon.",
+              "english": "Ask the neighbor about that."
+            }
+          ]
+        },
+        "completed": {
+          "word": "tinanungan",
+          "examples": [
+            {
+              "tagalog": "Tinanungan namin ang pulis ng impormasyon.",
+              "english": "We asked the police for information."
+            },
+            {
+              "tagalog": "Tinanungan niya ang titser ng pahintulot.",
+              "english": "She asked the teacher for permission."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "tinatanungan",
+          "examples": [
+            {
+              "tagalog": "Tinatanungan ng reporter ang mga nakasaksi.",
+              "english": "The reporter is asking the witnesses."
+            },
+            {
+              "tagalog": "Tinatanungan ng estudyante ang guro ng maraming katanungan.",
+              "english": "The student is asking the teacher many questions."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "tatanungan",
+          "examples": [
+            {
+              "tagalog": "Tatanungan namin ang manager bukas.",
+              "english": "We will ask the manager tomorrow."
+            },
+            {
+              "tagalog": "Tatanungan ko siya ng opinion tungkol dito.",
+              "english": "I will ask him his opinion about this."
+            }
+          ]
+        }
+      }
+    }
+  }
+}

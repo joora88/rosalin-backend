@@ -1,0 +1,65 @@
+{
+  "id": "upo",
+  "root": "upo",
+  "english": "to sit",
+  "category": "movement",
+  "focusTypes": {
+    "actor": {
+      "affix": "um-",
+      "forms": {
+        "infinitive": {
+          "word": "umupo",
+          "examples": [
+            {
+              "tagalog": "Gusto ko umupo sa may bintana.",
+              "english": "I want to sit by the window."
+            },
+            {
+              "tagalog": "Umupo ka rito.",
+              "english": "Sit here."
+            }
+          ]
+        },
+        "completed": {
+          "word": "umupo",
+          "examples": [
+            {
+              "tagalog": "Umupo siya sa tabi ko.",
+              "english": "She sat beside me."
+            },
+            {
+              "tagalog": "Umupo ang guro sa harap ng klase.",
+              "english": "The teacher sat in front of the class."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "umuupo",
+          "examples": [
+            {
+              "tagalog": "Umuupo ang mga bata sa sahig.",
+              "english": "The children are sitting on the floor."
+            },
+            {
+              "tagalog": "Umuupo siya tuwing pagod na pagod siya.",
+              "english": "He sits whenever he is very tired."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "uupo",
+          "examples": [
+            {
+              "tagalog": "Uupo kami sa harap ng entablado.",
+              "english": "We will sit in front of the stage."
+            },
+            {
+              "tagalog": "Uupo siya sa upuan ng lolo niya.",
+              "english": "She will sit in her grandfather's chair."
+            }
+          ]
+        }
+      }
+    }
+  }
+}

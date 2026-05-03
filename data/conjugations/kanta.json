@@ -1,0 +1,123 @@
+{
+  "id": "kanta",
+  "root": "kanta",
+  "english": "to sing",
+  "category": "music",
+  "notes": "For mag- verbs, the infinitive and contemplated forms are identical. Object (-in) focuses on the song being sung.",
+  "focusTypes": {
+    "actor": {
+      "affix": "mag-",
+      "forms": {
+        "infinitive": {
+          "word": "magkanta",
+          "examples": [
+            {
+              "tagalog": "Gusto niyang magkanta sa harap ng maraming tao.",
+              "english": "She wants to sing in front of many people."
+            },
+            {
+              "tagalog": "Magkanta kayo ng isa pang kanta.",
+              "english": "Sing one more song."
+            }
+          ]
+        },
+        "completed": {
+          "word": "nagkanta",
+          "examples": [
+            {
+              "tagalog": "Nagkanta siya ng paboritong kanta sa karaoke.",
+              "english": "She sang her favorite song at karaoke."
+            },
+            {
+              "tagalog": "Nagkanta ang koro sa misa ngayong Linggo.",
+              "english": "The choir sang at mass this Sunday."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "nagkakanta",
+          "examples": [
+            {
+              "tagalog": "Nagkakanta siya habang nagluluto.",
+              "english": "She is singing while cooking."
+            },
+            {
+              "tagalog": "Nagkakanta ang mga bata sa klase ng musika.",
+              "english": "The children are singing in music class."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "magkanta",
+          "examples": [
+            {
+              "tagalog": "Magkanta siya sa concert sa Sabado.",
+              "english": "He will sing at the concert on Saturday."
+            },
+            {
+              "tagalog": "Magkanta kami ng birthday song para sa aking ina bukas.",
+              "english": "We will sing the birthday song for my mother tomorrow."
+            }
+          ]
+        }
+      }
+    },
+    "object": {
+      "affix": "-in",
+      "forms": {
+        "infinitive": {
+          "word": "kantahin",
+          "examples": [
+            {
+              "tagalog": "Kantahin mo ang paboritong kanta ng lola.",
+              "english": "Sing grandmother's favorite song."
+            },
+            {
+              "tagalog": "Kailangan mong kantahin ang pambansang awit nang tuwid.",
+              "english": "You need to sing the national anthem standing upright."
+            }
+          ]
+        },
+        "completed": {
+          "word": "kinanta",
+          "examples": [
+            {
+              "tagalog": "Kinanta niya ang 'Dahil Sa Iyo' para sa kanyang mahal sa buhay.",
+              "english": "She sang 'Dahil Sa Iyo' for her loved one."
+            },
+            {
+              "tagalog": "Kinanta ng koro ang awit ng pag-asa.",
+              "english": "The choir sang the song of hope."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "kinakanta",
+          "examples": [
+            {
+              "tagalog": "Kinakanta niya ang lullaby para sa sanggol.",
+              "english": "She is singing a lullaby for the baby."
+            },
+            {
+              "tagalog": "Kinakanta ng mga estudyante ang panatang makabayan.",
+              "english": "The students are singing the patriotic pledge."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "kakantahin",
+          "examples": [
+            {
+              "tagalog": "Kakantahin ko ang aking paboritong kanta sa karaoke bukas.",
+              "english": "I will sing my favorite song at karaoke tomorrow."
+            },
+            {
+              "tagalog": "Kakantahin ng koro ang bagong awit sa Linggo.",
+              "english": "The choir will sing the new song on Sunday."
+            }
+          ]
+        }
+      }
+    }
+  }
+}

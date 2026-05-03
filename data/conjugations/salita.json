@@ -1,0 +1,65 @@
+{
+  "id": "salita",
+  "root": "salita",
+  "english": "to speak",
+  "category": "communication",
+  "focusTypes": {
+    "actor": {
+      "affix": "mag-",
+      "forms": {
+        "infinitive": {
+          "word": "magsalita",
+          "examples": [
+            {
+              "tagalog": "Ayaw niyang magsalita sa harap ng maraming tao.",
+              "english": "He doesn't want to speak in front of many people."
+            },
+            {
+              "tagalog": "Magsalita ka nang malinaw.",
+              "english": "Speak clearly."
+            }
+          ]
+        },
+        "completed": {
+          "word": "nagsalita",
+          "examples": [
+            {
+              "tagalog": "Nagsalita siya sa harap ng klase.",
+              "english": "She spoke in front of the class."
+            },
+            {
+              "tagalog": "Nagsalita ang lider sa mga miyembro.",
+              "english": "The leader spoke to the members."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "nagsasalita",
+          "examples": [
+            {
+              "tagalog": "Nagsasalita siya sa telepono.",
+              "english": "She is talking on the phone."
+            },
+            {
+              "tagalog": "Nagsasalita ang guro ng Tagalog.",
+              "english": "The teacher is speaking Tagalog."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "magsalita",
+          "examples": [
+            {
+              "tagalog": "Magsalita siya sa pulong bukas.",
+              "english": "She will speak at the meeting tomorrow."
+            },
+            {
+              "tagalog": "Magsalita kami sa mga bagong estudyante.",
+              "english": "We will speak to the new students."
+            }
+          ]
+        }
+      }
+    }
+  }
+}

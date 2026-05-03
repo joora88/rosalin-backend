@@ -1,0 +1,65 @@
+{
+  "id": "lakad",
+  "root": "lakad",
+  "english": "to walk",
+  "category": "movement",
+  "focusTypes": {
+    "actor": {
+      "affix": "um-",
+      "forms": {
+        "infinitive": {
+          "word": "lumakad",
+          "examples": [
+            {
+              "tagalog": "Gusto ko lumakad sa dalampasigan.",
+              "english": "I want to walk on the beach."
+            },
+            {
+              "tagalog": "Lumakad ka nang dahan-dahan.",
+              "english": "Walk slowly."
+            }
+          ]
+        },
+        "completed": {
+          "word": "lumakad",
+          "examples": [
+            {
+              "tagalog": "Lumakad kami papunta sa simbahan.",
+              "english": "We walked to the church."
+            },
+            {
+              "tagalog": "Lumakad siya nang matagal sa ulan.",
+              "english": "She walked for a long time in the rain."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "lumalakad",
+          "examples": [
+            {
+              "tagalog": "Lumalakad siya sa parke araw-araw.",
+              "english": "He walks in the park every day."
+            },
+            {
+              "tagalog": "Lumalakad na ang sanggol!",
+              "english": "The baby is already walking!"
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "lalakad",
+          "examples": [
+            {
+              "tagalog": "Lalakad kami papunta sa paaralan bukas.",
+              "english": "We will walk to school tomorrow."
+            },
+            {
+              "tagalog": "Lalakad siya sa plaza mamaya.",
+              "english": "She will walk at the plaza later."
+            }
+          ]
+        }
+      }
+    }
+  }
+}

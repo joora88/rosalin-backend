@@ -1,0 +1,179 @@
+{
+  "id": "bigay",
+  "root": "bigay",
+  "english": "to give",
+  "category": "daily actions",
+  "focusTypes": {
+    "actor": {
+      "affix": "mag-",
+      "forms": {
+        "infinitive": {
+          "word": "magbigay",
+          "examples": [
+            {
+              "tagalog": "Gusto niyang magbigay ng regalo.",
+              "english": "He wants to give a gift."
+            },
+            {
+              "tagalog": "Magbigay ka ng pagkain sa mahihirap.",
+              "english": "Give food to the poor."
+            }
+          ]
+        },
+        "completed": {
+          "word": "nagbigay",
+          "examples": [
+            {
+              "tagalog": "Nagbigay siya ng regalo sa kaarawan ko.",
+              "english": "She gave a gift on my birthday."
+            },
+            {
+              "tagalog": "Nagbigay ang guro ng takdang-aralin.",
+              "english": "The teacher gave homework."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "nagbibigay",
+          "examples": [
+            {
+              "tagalog": "Nagbibigay siya ng tulong sa kapitbahay.",
+              "english": "He is giving help to the neighbor."
+            },
+            {
+              "tagalog": "Nagbibigay ng pagkain ang organisasyon sa mga bata.",
+              "english": "The organization is giving food to the children."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "magbigay",
+          "examples": [
+            {
+              "tagalog": "Magbigay siya ng tulong bukas.",
+              "english": "He will give help tomorrow."
+            },
+            {
+              "tagalog": "Magbigay kami ng donasyon sa simbahan.",
+              "english": "We will give a donation to the church."
+            }
+          ]
+        }
+      }
+    },
+    "locative": {
+      "affix": "-an",
+      "forms": {
+        "infinitive": {
+          "word": "bigyan",
+          "examples": [
+            {
+              "tagalog": "Bigyan mo ng pera ang bata.",
+              "english": "Give money to the child."
+            },
+            {
+              "tagalog": "Gusto kong bigyan siya ng sorpresa.",
+              "english": "I want to give her a surprise."
+            }
+          ]
+        },
+        "completed": {
+          "word": "binigyan",
+          "examples": [
+            {
+              "tagalog": "Binigyan niya ng regalo ang nanay.",
+              "english": "She gave a gift to mother."
+            },
+            {
+              "tagalog": "Binigyan ng guro ang estudyante ng aklat.",
+              "english": "The teacher gave the student a book."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "binibigyan",
+          "examples": [
+            {
+              "tagalog": "Binibigyan niya ng pagkain ang kapitbahay.",
+              "english": "She is giving food to the neighbor."
+            },
+            {
+              "tagalog": "Binibigyan ng lola ng pera ang mga apo.",
+              "english": "Grandmother is giving money to the grandchildren."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "bibigyan",
+          "examples": [
+            {
+              "tagalog": "Bibigyan ko siya ng regalo sa Pasko.",
+              "english": "I will give her a gift at Christmas."
+            },
+            {
+              "tagalog": "Bibigyan ng guro ang klase ng pagsusulit.",
+              "english": "The teacher will give the class a test."
+            }
+          ]
+        }
+      }
+    },
+    "beneficiary": {
+      "affix": "i-",
+      "forms": {
+        "infinitive": {
+          "word": "ibigay",
+          "examples": [
+            {
+              "tagalog": "Ibigay mo ang bulaklak sa guro.",
+              "english": "Give the flowers to the teacher."
+            },
+            {
+              "tagalog": "Ibigay mo ang pagkain sa bata.",
+              "english": "Give the food to the child."
+            }
+          ]
+        },
+        "completed": {
+          "word": "ibinigay",
+          "examples": [
+            {
+              "tagalog": "Ibinigay niya ang libro sa aklatan.",
+              "english": "He gave the book to the library."
+            },
+            {
+              "tagalog": "Ibinigay ng nanay ang ulam sa mesa.",
+              "english": "Mother brought the food to the table."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "ibinibigay",
+          "examples": [
+            {
+              "tagalog": "Ibinibigay niya ang mga damit sa mahihirap.",
+              "english": "She is giving clothes to the poor."
+            },
+            {
+              "tagalog": "Ibinibigay ng doktor ang gamot sa pasyente.",
+              "english": "The doctor is giving medicine to the patient."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "ibibigay",
+          "examples": [
+            {
+              "tagalog": "Ibibigay ko ang regalo bukas.",
+              "english": "I will give the gift tomorrow."
+            },
+            {
+              "tagalog": "Ibibigay ng organisasyon ang tulong sa nasunog.",
+              "english": "The organization will give aid to the fire victims."
+            }
+          ]
+        }
+      }
+    }
+  }
+}

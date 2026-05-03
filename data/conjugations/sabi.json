@@ -1,0 +1,180 @@
+{
+  "id": "sabi",
+  "root": "sabi",
+  "english": "to say / tell",
+  "category": "common phrases",
+  "notes": "For mag- verbs, the infinitive and contemplated forms are identical. Object (-in) focuses on what is said. Locative (-an) focuses on the person being told.",
+  "focusTypes": {
+    "actor": {
+      "affix": "mag-",
+      "forms": {
+        "infinitive": {
+          "word": "magsabi",
+          "examples": [
+            {
+              "tagalog": "Kailangan mong magsabi ng totoo.",
+              "english": "You need to tell the truth."
+            },
+            {
+              "tagalog": "Huwag kang magsabi ng kasinungalingan.",
+              "english": "Don't tell lies."
+            }
+          ]
+        },
+        "completed": {
+          "word": "nagsabi",
+          "examples": [
+            {
+              "tagalog": "Nagsabi siya na darating siya bukas.",
+              "english": "She said she will arrive tomorrow."
+            },
+            {
+              "tagalog": "Nagsabi ang guro na wala ng klase bukas.",
+              "english": "The teacher said there is no class tomorrow."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "nagsasabi",
+          "examples": [
+            {
+              "tagalog": "Nagsasabi siya ng magandang balita.",
+              "english": "She is saying good news."
+            },
+            {
+              "tagalog": "Nagsasabi ang lolo ng mga kwento sa mga apo.",
+              "english": "Grandfather is telling stories to the grandchildren."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "magsabi",
+          "examples": [
+            {
+              "tagalog": "Magsabi siya ng katotohanan sa pulong bukas.",
+              "english": "She will tell the truth at the meeting tomorrow."
+            },
+            {
+              "tagalog": "Magsabi kami ng magandang balita sa pamilya bukas.",
+              "english": "We will tell the family good news tomorrow."
+            }
+          ]
+        }
+      }
+    },
+    "object": {
+      "affix": "-in",
+      "forms": {
+        "infinitive": {
+          "word": "sabihin",
+          "examples": [
+            {
+              "tagalog": "Sabihin mo ang iyong pangalan.",
+              "english": "Say your name."
+            },
+            {
+              "tagalog": "Kailangan mong sabihin ang katotohanan.",
+              "english": "You need to say the truth."
+            }
+          ]
+        },
+        "completed": {
+          "word": "sinabi",
+          "examples": [
+            {
+              "tagalog": "Sinabi niya na mahal niya ang pamilya niya.",
+              "english": "She said that she loves her family."
+            },
+            {
+              "tagalog": "Sinabi ng guro ang tamang paraan ng paggawa.",
+              "english": "The teacher said the correct way of doing it."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "sinasabi",
+          "examples": [
+            {
+              "tagalog": "Sinasabi niya ang kanyang dasal bago kumain.",
+              "english": "He is saying his prayer before eating."
+            },
+            {
+              "tagalog": "Sinasabi ng ina ang pangalan ng mga halaman sa anak.",
+              "english": "The mother is telling her child the names of the plants."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "sasabihin",
+          "examples": [
+            {
+              "tagalog": "Sasabihin ko sa kanya ang totoo bukas.",
+              "english": "I will tell him the truth tomorrow."
+            },
+            {
+              "tagalog": "Sasabihin nila ang kanilang desisyon sa Lunes.",
+              "english": "They will announce their decision on Monday."
+            }
+          ]
+        }
+      }
+    },
+    "locative": {
+      "affix": "-an",
+      "forms": {
+        "infinitive": {
+          "word": "sabihan",
+          "examples": [
+            {
+              "tagalog": "Sabihan mo siya na darating tayo nang maaga.",
+              "english": "Tell him that we will arrive early."
+            },
+            {
+              "tagalog": "Sabihan mo ang mga bata na matulog na.",
+              "english": "Tell the children to go to sleep."
+            }
+          ]
+        },
+        "completed": {
+          "word": "sinabihan",
+          "examples": [
+            {
+              "tagalog": "Sinabihan niya ang kaibigan niya ng totoo.",
+              "english": "She told her friend the truth."
+            },
+            {
+              "tagalog": "Sinabihan ng doktor ang pasyente na magpahinga.",
+              "english": "The doctor told the patient to rest."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "sinasabihan",
+          "examples": [
+            {
+              "tagalog": "Sinasabihan niya ang kaibigan niya ng mabuting payo.",
+              "english": "She is giving good advice to her friend."
+            },
+            {
+              "tagalog": "Sinasabihan ng nanay ang anak ng aral sa buhay.",
+              "english": "The mother is teaching her child life lessons."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "sasabihan",
+          "examples": [
+            {
+              "tagalog": "Sasabihan ko siya ng magandang balita bukas.",
+              "english": "I will tell her the good news tomorrow."
+            },
+            {
+              "tagalog": "Sasabihan namin ang lahat ng miyembro bukas.",
+              "english": "We will tell all the members tomorrow."
+            }
+          ]
+        }
+      }
+    }
+  }
+}

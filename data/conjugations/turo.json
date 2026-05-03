@@ -1,0 +1,180 @@
+{
+  "id": "turo",
+  "root": "turo",
+  "english": "to teach / to point",
+  "category": "school",
+  "notes": "For mag- verbs, the infinitive and contemplated forms are identical. Locative (-an) focuses on the person being taught. Beneficiary (i-) focuses on the subject/thing being taught or pointed to.",
+  "focusTypes": {
+    "actor": {
+      "affix": "mag-",
+      "forms": {
+        "infinitive": {
+          "word": "magturo",
+          "examples": [
+            {
+              "tagalog": "Gustong-gusto niyang magturo ng Tagalog.",
+              "english": "He loves to teach Tagalog."
+            },
+            {
+              "tagalog": "Magturo ka nang mabuti sa mga bata.",
+              "english": "Teach the children well."
+            }
+          ]
+        },
+        "completed": {
+          "word": "nagturo",
+          "examples": [
+            {
+              "tagalog": "Nagturo ang guro ng bagong aralin kahapon.",
+              "english": "The teacher taught a new lesson yesterday."
+            },
+            {
+              "tagalog": "Nagturo siya ng Ingles sa loob ng sampung taon.",
+              "english": "She taught English for ten years."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "nagtuturo",
+          "examples": [
+            {
+              "tagalog": "Nagtuturo siya ng matematika sa high school.",
+              "english": "He is teaching mathematics at a high school."
+            },
+            {
+              "tagalog": "Nagtuturo ang ate niya ng piano sa mga bata.",
+              "english": "His older sister is teaching piano to the children."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "magturo",
+          "examples": [
+            {
+              "tagalog": "Magturo siya sa bagong paaralan bukas.",
+              "english": "She will teach at the new school tomorrow."
+            },
+            {
+              "tagalog": "Magturo kami ng sayaw sa mga estudyante sa Biyernes.",
+              "english": "We will teach the students dancing on Friday."
+            }
+          ]
+        }
+      }
+    },
+    "locative": {
+      "affix": "-an",
+      "forms": {
+        "infinitive": {
+          "word": "turuan",
+          "examples": [
+            {
+              "tagalog": "Turuan mo ang bata ng tamang asal.",
+              "english": "Teach the child good manners."
+            },
+            {
+              "tagalog": "Gusto kong turuan siya ng Tagalog.",
+              "english": "I want to teach her Tagalog."
+            }
+          ]
+        },
+        "completed": {
+          "word": "tinuruan",
+          "examples": [
+            {
+              "tagalog": "Tinuruan niya ang mga mag-aaral ng bagong sayaw.",
+              "english": "She taught the students a new dance."
+            },
+            {
+              "tagalog": "Tinuruan ng lolo ang mga apo ng paglalaro ng chess.",
+              "english": "Grandfather taught the grandchildren how to play chess."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "tinuturuan",
+          "examples": [
+            {
+              "tagalog": "Tinuturuan niya ang kapatid niya ng algebra.",
+              "english": "He is teaching his sibling algebra."
+            },
+            {
+              "tagalog": "Tinuturuan ng nanay ang mga anak ng magluto.",
+              "english": "Mother is teaching her children to cook."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "tuturuan",
+          "examples": [
+            {
+              "tagalog": "Tuturuan ko siya ng gitara bukas.",
+              "english": "I will teach her guitar tomorrow."
+            },
+            {
+              "tagalog": "Tuturuan ng guro ang klase ng bagong paksa sa Lunes.",
+              "english": "The teacher will teach the class a new topic on Monday."
+            }
+          ]
+        }
+      }
+    },
+    "beneficiary": {
+      "affix": "i-",
+      "forms": {
+        "infinitive": {
+          "word": "ituro",
+          "examples": [
+            {
+              "tagalog": "Ituro mo sa kanya ang tamang daan.",
+              "english": "Show him the right way."
+            },
+            {
+              "tagalog": "Ituro mo ang sagot sa pisara.",
+              "english": "Point out the answer on the board."
+            }
+          ]
+        },
+        "completed": {
+          "word": "itinuro",
+          "examples": [
+            {
+              "tagalog": "Itinuro ng guro ang bagong aralin sa mga estudyante.",
+              "english": "The teacher taught the new lesson to the students."
+            },
+            {
+              "tagalog": "Itinuro niya ang daan papunta sa simbahan.",
+              "english": "She pointed the way to the church."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "itinuturo",
+          "examples": [
+            {
+              "tagalog": "Itinuturo ng titser ang pagbabasa sa mga bata.",
+              "english": "The teacher is teaching reading to the children."
+            },
+            {
+              "tagalog": "Itinuturo niya ang daan sa mga turista.",
+              "english": "She is pointing the way to the tourists."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "ituturo",
+          "examples": [
+            {
+              "tagalog": "Ituturo ng guro ang bagong paksa bukas.",
+              "english": "The teacher will teach the new topic tomorrow."
+            },
+            {
+              "tagalog": "Ituturo niya ang tamang paraan ng pagluluto.",
+              "english": "She will show the correct way of cooking."
+            }
+          ]
+        }
+      }
+    }
+  }
+}

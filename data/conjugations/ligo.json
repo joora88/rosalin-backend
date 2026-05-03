@@ -1,0 +1,66 @@
+{
+  "id": "ligo",
+  "root": "ligo",
+  "english": "to bathe / take a shower",
+  "category": "daily actions",
+  "notes": "Intransitive ma- verb. Only actor focus is used.",
+  "focusTypes": {
+    "actor": {
+      "affix": "ma-",
+      "forms": {
+        "infinitive": {
+          "word": "maligo",
+          "examples": [
+            {
+              "tagalog": "Gusto niyang maligo bago kumain.",
+              "english": "He wants to bathe before eating."
+            },
+            {
+              "tagalog": "Kailangan mong maligo araw-araw.",
+              "english": "You need to bathe every day."
+            }
+          ]
+        },
+        "completed": {
+          "word": "naligo",
+          "examples": [
+            {
+              "tagalog": "Naligo na ako; handa na akong lumabas.",
+              "english": "I already bathed; I am ready to go out."
+            },
+            {
+              "tagalog": "Naligo ang bata bago matulog.",
+              "english": "The child bathed before sleeping."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "naliligo",
+          "examples": [
+            {
+              "tagalog": "Naliligo siya ngayon; hintayin mo siya.",
+              "english": "She is bathing right now; wait for her."
+            },
+            {
+              "tagalog": "Naliligo ang mga bata sa ilog tuwing tag-init.",
+              "english": "The children bathe in the river every summer."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "maliligo",
+          "examples": [
+            {
+              "tagalog": "Maliligo ako pagkatapos ng pagtatrabaho.",
+              "english": "I will bathe after working."
+            },
+            {
+              "tagalog": "Maliligo siya sa umaga bago pumasok sa trabaho.",
+              "english": "She will bathe in the morning before going to work."
+            }
+          ]
+        }
+      }
+    }
+  }
+}

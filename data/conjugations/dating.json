@@ -1,0 +1,65 @@
+{
+  "id": "dating",
+  "root": "dating",
+  "english": "to arrive",
+  "category": "movement",
+  "focusTypes": {
+    "actor": {
+      "affix": "um-",
+      "forms": {
+        "infinitive": {
+          "word": "dumating",
+          "examples": [
+            {
+              "tagalog": "Gusto ko siyang dumating nang maaga.",
+              "english": "I want her to arrive early."
+            },
+            {
+              "tagalog": "Kailangan mong dumating bago mag-alas-siyete.",
+              "english": "You need to arrive before seven o'clock."
+            }
+          ]
+        },
+        "completed": {
+          "word": "dumating",
+          "examples": [
+            {
+              "tagalog": "Dumating na ang mga bisita.",
+              "english": "The guests have already arrived."
+            },
+            {
+              "tagalog": "Dumating siya nang maaga kagabi.",
+              "english": "He arrived early last night."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "dumarating",
+          "examples": [
+            {
+              "tagalog": "Dumarating siya tuwing Biyernes.",
+              "english": "He arrives every Friday."
+            },
+            {
+              "tagalog": "Dumarating na ang mga tao sa handaan.",
+              "english": "People are arriving at the party."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "darating",
+          "examples": [
+            {
+              "tagalog": "Darating ang aking kaibigan bukas.",
+              "english": "My friend will arrive tomorrow."
+            },
+            {
+              "tagalog": "Darating sila sa Maynila sa Martes.",
+              "english": "They will arrive in Manila on Tuesday."
+            }
+          ]
+        }
+      }
+    }
+  }
+}

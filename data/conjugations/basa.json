@@ -1,0 +1,236 @@
+{
+  "id": "basa",
+  "root": "basa",
+  "english": "to read",
+  "category": "learning",
+  "focusTypes": {
+    "actor": {
+      "affix": "mag-",
+      "forms": {
+        "infinitive": {
+          "word": "magbasa",
+          "examples": [
+            {
+              "tagalog": "Gusto kong magbasa ng nobela.",
+              "english": "I want to read a novel."
+            },
+            {
+              "tagalog": "Magbasa ka muna bago matulog.",
+              "english": "Read first before sleeping."
+            }
+          ]
+        },
+        "completed": {
+          "word": "nagbasa",
+          "examples": [
+            {
+              "tagalog": "Nagbasa ako ng libro kagabi.",
+              "english": "I read a book last night."
+            },
+            {
+              "tagalog": "Nagbasa siya ng diyaryo tuwing umaga.",
+              "english": "He read the newspaper every morning."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "nagbabasa",
+          "examples": [
+            {
+              "tagalog": "Nagbabasa siya ng komiks ngayon.",
+              "english": "She is reading comics right now."
+            },
+            {
+              "tagalog": "Nagbabasa kami ng mga aklat sa library.",
+              "english": "We are reading books at the library."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "magbasa",
+          "examples": [
+            {
+              "tagalog": "Magbasa siya ng kuwento bukas.",
+              "english": "She will read a story tomorrow."
+            },
+            {
+              "tagalog": "Magbasa kami ng mga libro sa tag-araw.",
+              "english": "We will read books during summer."
+            }
+          ]
+        }
+      }
+    },
+    "object": {
+      "affix": "-in",
+      "forms": {
+        "infinitive": {
+          "word": "basahin",
+          "examples": [
+            {
+              "tagalog": "Basahin mo ang liham.",
+              "english": "Read the letter."
+            },
+            {
+              "tagalog": "Kailangan naming basahin ang lahat ng kabanata.",
+              "english": "We need to read all the chapters."
+            }
+          ]
+        },
+        "completed": {
+          "word": "binasa",
+          "examples": [
+            {
+              "tagalog": "Binasa ko ang buong libro.",
+              "english": "I read the entire book."
+            },
+            {
+              "tagalog": "Binasa ng guro ang ulat ng estudyante.",
+              "english": "The teacher read the student's report."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "binabasa",
+          "examples": [
+            {
+              "tagalog": "Binabasa ng bata ang kwentong-bayan.",
+              "english": "The child is reading the folk tale."
+            },
+            {
+              "tagalog": "Binabasa ko ang mensahe mo.",
+              "english": "I am reading your message."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "babasahin",
+          "examples": [
+            {
+              "tagalog": "Babasahin ko ang lahat ng iyong mga sulat.",
+              "english": "I will read all of your letters."
+            },
+            {
+              "tagalog": "Babasahin ng klase ang bagong aklat.",
+              "english": "The class will read the new book."
+            }
+          ]
+        }
+      }
+    },
+    "locative": {
+      "affix": "-an",
+      "forms": {
+        "infinitive": {
+          "word": "basahan",
+          "examples": [
+            {
+              "tagalog": "Basahan mo ang bata ng kwento.",
+              "english": "Read a story to the child."
+            },
+            {
+              "tagalog": "Gusto kong basahan kayo ng tula.",
+              "english": "I want to read you all a poem."
+            }
+          ]
+        },
+        "completed": {
+          "word": "binasahan",
+          "examples": [
+            {
+              "tagalog": "Binasahan ng nanay ang anak ng kuwento bago matulog.",
+              "english": "The mother read a story to her child before bedtime."
+            },
+            {
+              "tagalog": "Binasahan niya ang lolo ng diyaryo.",
+              "english": "He read the newspaper to grandfather."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "binababasahan",
+          "examples": [
+            {
+              "tagalog": "Binababasahan ng guro ang klase ng tula.",
+              "english": "The teacher is reading a poem to the class."
+            },
+            {
+              "tagalog": "Binababasahan niya ang anak ng bago't bagong kwento.",
+              "english": "She is reading new stories to her child."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "babasahan",
+          "examples": [
+            {
+              "tagalog": "Babasahan ko siya ng sulat mamaya.",
+              "english": "I will read the letter to her later."
+            },
+            {
+              "tagalog": "Babasahan ng lolo ang mga apo ng alamat.",
+              "english": "Grandfather will read legends to the grandchildren."
+            }
+          ]
+        }
+      }
+    },
+    "beneficiary": {
+      "affix": "i-",
+      "forms": {
+        "infinitive": {
+          "word": "ibasa",
+          "examples": [
+            {
+              "tagalog": "Ibasa mo ang balita sa kanya.",
+              "english": "Read the news to him."
+            },
+            {
+              "tagalog": "Ibasa mo ang iyong ulat sa klase.",
+              "english": "Read your report to the class."
+            }
+          ]
+        },
+        "completed": {
+          "word": "ibinasa",
+          "examples": [
+            {
+              "tagalog": "Ibinasa niya ang liham sa lahat.",
+              "english": "She read the letter to everyone."
+            },
+            {
+              "tagalog": "Ibinasa ng guro ang tula para sa mga bata.",
+              "english": "The teacher read the poem for the children."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "ibinabasa",
+          "examples": [
+            {
+              "tagalog": "Ibinabasa ng nanay ang biblia sa pamilya.",
+              "english": "Mother is reading the bible to the family."
+            },
+            {
+              "tagalog": "Ibinabasa niya ang mensahe sa amin.",
+              "english": "He is reading the message to us."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "ibibasa",
+          "examples": [
+            {
+              "tagalog": "Ibibasa ko sa inyo ang buong kwento bukas.",
+              "english": "I will read the whole story to you all tomorrow."
+            },
+            {
+              "tagalog": "Ibibasa ng guro ang bagong libro sa klase.",
+              "english": "The teacher will read the new book to the class."
+            }
+          ]
+        }
+      }
+    }
+  }
+}

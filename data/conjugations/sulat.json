@@ -1,0 +1,179 @@
+{
+  "id": "sulat",
+  "root": "sulat",
+  "english": "to write",
+  "category": "learning",
+  "focusTypes": {
+    "actor": {
+      "affix": "mag-",
+      "forms": {
+        "infinitive": {
+          "word": "magsulat",
+          "examples": [
+            {
+              "tagalog": "Gusto kong magsulat ng kwento.",
+              "english": "I want to write a story."
+            },
+            {
+              "tagalog": "Magsulat ka ng liham sa iyong lolo.",
+              "english": "Write a letter to your grandfather."
+            }
+          ]
+        },
+        "completed": {
+          "word": "nagsulat",
+          "examples": [
+            {
+              "tagalog": "Nagsulat siya ng tula para sa guro.",
+              "english": "She wrote a poem for the teacher."
+            },
+            {
+              "tagalog": "Nagsulat kami ng ulat kagabi.",
+              "english": "We wrote a report last night."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "nagsusulat",
+          "examples": [
+            {
+              "tagalog": "Nagsusulat siya ng nobela.",
+              "english": "He is writing a novel."
+            },
+            {
+              "tagalog": "Nagsusulat ang bata ng kanyang pangalan.",
+              "english": "The child is writing his name."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "magsulat",
+          "examples": [
+            {
+              "tagalog": "Magsulat siya ng liham sa kanyang pamilya.",
+              "english": "She will write a letter to her family."
+            },
+            {
+              "tagalog": "Magsulat kami ng bagong kwento para sa mga bata.",
+              "english": "We will write a new story for the children."
+            }
+          ]
+        }
+      }
+    },
+    "object": {
+      "affix": "-in",
+      "forms": {
+        "infinitive": {
+          "word": "sulatin",
+          "examples": [
+            {
+              "tagalog": "Sulatin mo ang iyong pangalan sa papel.",
+              "english": "Write your name on the paper."
+            },
+            {
+              "tagalog": "Kailangan mong sulatin ang lahat ng impormasyon.",
+              "english": "You need to write all the information."
+            }
+          ]
+        },
+        "completed": {
+          "word": "sinulat",
+          "examples": [
+            {
+              "tagalog": "Sinulat niya ang liham nang may pagmamahal.",
+              "english": "She wrote the letter with love."
+            },
+            {
+              "tagalog": "Sinulat ng mag-aaral ang tamang sagot.",
+              "english": "The student wrote the correct answer."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "sinusulat",
+          "examples": [
+            {
+              "tagalog": "Sinusulat ng guro ang takdang-aralin sa pisara.",
+              "english": "The teacher is writing the homework on the board."
+            },
+            {
+              "tagalog": "Sinusulat ko ang aking pangalan sa papel.",
+              "english": "I am writing my name on the paper."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "susulatin",
+          "examples": [
+            {
+              "tagalog": "Susulatin ko ang ulat bukas.",
+              "english": "I will write the report tomorrow."
+            },
+            {
+              "tagalog": "Susulatin ng mag-aaral ang kanyang thesis.",
+              "english": "The student will write his thesis."
+            }
+          ]
+        }
+      }
+    },
+    "beneficiary": {
+      "affix": "i-",
+      "forms": {
+        "infinitive": {
+          "word": "isulat",
+          "examples": [
+            {
+              "tagalog": "Isulat mo ang mensahe para sa kanya.",
+              "english": "Write the message for him."
+            },
+            {
+              "tagalog": "Isulat mo ang tula para sa aming guro.",
+              "english": "Write the poem for our teacher."
+            }
+          ]
+        },
+        "completed": {
+          "word": "isinulat",
+          "examples": [
+            {
+              "tagalog": "Isinulat niya ang liham para sa kanyang ina.",
+              "english": "He wrote the letter for his mother."
+            },
+            {
+              "tagalog": "Isinulat ng estudyante ang ulat para sa klase.",
+              "english": "The student wrote the report for the class."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "isinusulat",
+          "examples": [
+            {
+              "tagalog": "Isinusulat niya ang mensahe para sa kaibigan.",
+              "english": "She is writing the message for her friend."
+            },
+            {
+              "tagalog": "Isinusulat ng guro ang liham para sa mga magulang.",
+              "english": "The teacher is writing the letter for the parents."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "isusulat",
+          "examples": [
+            {
+              "tagalog": "Isusulat ko ang kwento para sa aking anak.",
+              "english": "I will write the story for my child."
+            },
+            {
+              "tagalog": "Isusulat niya ang liham para sa kanyang pamilya bukas.",
+              "english": "She will write the letter for her family tomorrow."
+            }
+          ]
+        }
+      }
+    }
+  }
+}

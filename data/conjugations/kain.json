@@ -1,0 +1,180 @@
+{
+  "id": "kain",
+  "root": "kain",
+  "english": "to eat",
+  "category": "daily actions",
+  "notes": "For um- verbs, the infinitive and completed forms are identical.",
+  "focusTypes": {
+    "actor": {
+      "affix": "um-",
+      "forms": {
+        "infinitive": {
+          "word": "kumain",
+          "examples": [
+            {
+              "tagalog": "Gusto ko kumain ng lugaw.",
+              "english": "I want to eat rice porridge."
+            },
+            {
+              "tagalog": "Kumain ka na!",
+              "english": "Go ahead and eat!"
+            }
+          ]
+        },
+        "completed": {
+          "word": "kumain",
+          "examples": [
+            {
+              "tagalog": "Kumain na ako ng almusal.",
+              "english": "I already ate breakfast."
+            },
+            {
+              "tagalog": "Kumain siya ng isda kahapon.",
+              "english": "She ate fish yesterday."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "kumakain",
+          "examples": [
+            {
+              "tagalog": "Kumakain kami ng tanghalian ngayon.",
+              "english": "We are eating lunch right now."
+            },
+            {
+              "tagalog": "Kumakain siya ng prutas araw-araw.",
+              "english": "He eats fruit every day."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "kakain",
+          "examples": [
+            {
+              "tagalog": "Kakain kami sa labas bukas.",
+              "english": "We will eat out tomorrow."
+            },
+            {
+              "tagalog": "Kakain ka ba ng sinigang?",
+              "english": "Will you eat sinigang?"
+            }
+          ]
+        }
+      }
+    },
+    "object": {
+      "affix": "-in",
+      "forms": {
+        "infinitive": {
+          "word": "kainin",
+          "examples": [
+            {
+              "tagalog": "Kainin mo ang gulay.",
+              "english": "Eat the vegetables."
+            },
+            {
+              "tagalog": "Ayaw niyang kainin ang ampalaya.",
+              "english": "He doesn't want to eat the bitter melon."
+            }
+          ]
+        },
+        "completed": {
+          "word": "kinain",
+          "examples": [
+            {
+              "tagalog": "Kinain ng bata ang kendi.",
+              "english": "The child ate the candy."
+            },
+            {
+              "tagalog": "Kinain ko ang ulam na inihanda ng nanay.",
+              "english": "I ate the dish that mother prepared."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "kinakain",
+          "examples": [
+            {
+              "tagalog": "Kinakain nila ang hapunan.",
+              "english": "They are eating dinner."
+            },
+            {
+              "tagalog": "Kinakain ng aso ang tira-tira.",
+              "english": "The dog is eating the leftovers."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "kakainin",
+          "examples": [
+            {
+              "tagalog": "Kakainin namin ang bibingka mamaya.",
+              "english": "We will eat the bibingka later."
+            },
+            {
+              "tagalog": "Kakainin mo ba ang lahat ng iyon?",
+              "english": "Will you eat all of that?"
+            }
+          ]
+        }
+      }
+    },
+    "locative": {
+      "affix": "-an",
+      "forms": {
+        "infinitive": {
+          "word": "kainan",
+          "examples": [
+            {
+              "tagalog": "Gusto naming kainan ang bagong restawran.",
+              "english": "We want to eat at the new restaurant."
+            },
+            {
+              "tagalog": "Kainan natin ang sala.",
+              "english": "Let's eat in the living room."
+            }
+          ]
+        },
+        "completed": {
+          "word": "kinainan",
+          "examples": [
+            {
+              "tagalog": "Kinainan namin ang restawran sa tabi ng simbahan.",
+              "english": "We ate at the restaurant beside the church."
+            },
+            {
+              "tagalog": "Kinainan ng pamilya ang kusina ngayong umaga.",
+              "english": "The family ate in the kitchen this morning."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "kinakainan",
+          "examples": [
+            {
+              "tagalog": "Kinakainan ng mga bisita ang terasa.",
+              "english": "The guests are eating on the terrace."
+            },
+            {
+              "tagalog": "Kinakainan ng pamilya ang sala tuwing Linggo.",
+              "english": "The family eats in the living room every Sunday."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "kakainan",
+          "examples": [
+            {
+              "tagalog": "Kakainan namin ang bagong restawran bukas.",
+              "english": "We will eat at the new restaurant tomorrow."
+            },
+            {
+              "tagalog": "Kakainan ng mga bata ang parke mamaya.",
+              "english": "The children will eat at the park later."
+            }
+          ]
+        }
+      }
+    }
+  }
+}

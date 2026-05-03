@@ -1,0 +1,237 @@
+{
+  "id": "luto",
+  "root": "luto",
+  "english": "to cook",
+  "category": "daily actions",
+  "notes": "For mag- verbs, the infinitive and contemplated forms are identical.",
+  "focusTypes": {
+    "actor": {
+      "affix": "mag-",
+      "forms": {
+        "infinitive": {
+          "word": "magluto",
+          "examples": [
+            {
+              "tagalog": "Gusto kong magluto ng adobo.",
+              "english": "I want to cook adobo."
+            },
+            {
+              "tagalog": "Magluto ka para sa pamilya.",
+              "english": "Cook for the family."
+            }
+          ]
+        },
+        "completed": {
+          "word": "nagluto",
+          "examples": [
+            {
+              "tagalog": "Nagluto ang nanay ng sinigang.",
+              "english": "Mother cooked sinigang."
+            },
+            {
+              "tagalog": "Nagluto kami ng adobo para sa handaan.",
+              "english": "We cooked adobo for the party."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "nagluluto",
+          "examples": [
+            {
+              "tagalog": "Nagluluto ang lola ng kanin.",
+              "english": "Grandmother is cooking rice."
+            },
+            {
+              "tagalog": "Nagluluto siya ng hapunan ngayon.",
+              "english": "She is cooking dinner right now."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "magluto",
+          "examples": [
+            {
+              "tagalog": "Magluto ako ng pansit bukas.",
+              "english": "I will cook pansit tomorrow."
+            },
+            {
+              "tagalog": "Magluto siya ng lechon para sa fiesta.",
+              "english": "He will cook lechon for the fiesta."
+            }
+          ]
+        }
+      }
+    },
+    "object": {
+      "affix": "-in",
+      "forms": {
+        "infinitive": {
+          "word": "lutuin",
+          "examples": [
+            {
+              "tagalog": "Lutuin mo ang isda na binili ko.",
+              "english": "Cook the fish that I bought."
+            },
+            {
+              "tagalog": "Anong gusto mong lutuin?",
+              "english": "What do you want to cook?"
+            }
+          ]
+        },
+        "completed": {
+          "word": "niluto",
+          "examples": [
+            {
+              "tagalog": "Niluto ng nanay ang adobo para sa hapunan.",
+              "english": "Mother cooked the adobo for dinner."
+            },
+            {
+              "tagalog": "Niluto niya ang kanin sa kaldero.",
+              "english": "She cooked the rice in a pot."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "niluluto",
+          "examples": [
+            {
+              "tagalog": "Niluluto ng lola ang sinigang.",
+              "english": "Grandmother is cooking sinigang."
+            },
+            {
+              "tagalog": "Niluluto niya ang isda sa kawali.",
+              "english": "She is cooking fish in a pan."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "lulutuin",
+          "examples": [
+            {
+              "tagalog": "Lulutuin ko ang paboritong ulam mo bukas.",
+              "english": "I will cook your favorite dish tomorrow."
+            },
+            {
+              "tagalog": "Lulutuin namin ang lechon para sa fiesta.",
+              "english": "We will cook lechon for the fiesta."
+            }
+          ]
+        }
+      }
+    },
+    "locative": {
+      "affix": "-an",
+      "forms": {
+        "infinitive": {
+          "word": "lutuan",
+          "examples": [
+            {
+              "tagalog": "Lutuan mo ang bata ng mainit na sabaw.",
+              "english": "Cook hot soup for the child."
+            },
+            {
+              "tagalog": "Gusto kong lutuan kayo ng adobo.",
+              "english": "I want to cook adobo for all of you."
+            }
+          ]
+        },
+        "completed": {
+          "word": "nilutuan",
+          "examples": [
+            {
+              "tagalog": "Nilutuan niya ang pamilya ng sinigang.",
+              "english": "She cooked sinigang for the family."
+            },
+            {
+              "tagalog": "Nilutuan ng lola ang lahat ng apo ng kare-kare.",
+              "english": "Grandmother cooked kare-kare for all the grandchildren."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "nilulutuan",
+          "examples": [
+            {
+              "tagalog": "Nilulutuan niya ang mga kaibigan ng adobo.",
+              "english": "She is cooking adobo for her friends."
+            },
+            {
+              "tagalog": "Nilulutuan ng nanay ang pamilya ng masustansiyang pagkain.",
+              "english": "Mother is cooking nutritious food for the family."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "lulutuan",
+          "examples": [
+            {
+              "tagalog": "Lulutuan ko kayo ng espesyal na ulam bukas.",
+              "english": "I will cook a special dish for you all tomorrow."
+            },
+            {
+              "tagalog": "Lulutuan niya ang buong pamilya ng lechon sa Pasko.",
+              "english": "She will cook lechon for the whole family at Christmas."
+            }
+          ]
+        }
+      }
+    },
+    "beneficiary": {
+      "affix": "i-",
+      "forms": {
+        "infinitive": {
+          "word": "iluto",
+          "examples": [
+            {
+              "tagalog": "Iluto mo ang gulay para sa nanay.",
+              "english": "Cook the vegetables for mother."
+            },
+            {
+              "tagalog": "Iluto mo ang kanin para sa pamilya.",
+              "english": "Cook the rice for the family."
+            }
+          ]
+        },
+        "completed": {
+          "word": "iniluto",
+          "examples": [
+            {
+              "tagalog": "Iniluto niya ang adobo para sa amin.",
+              "english": "She cooked the adobo for us."
+            },
+            {
+              "tagalog": "Iniluto ng lola ang sinigang para sa mga apo.",
+              "english": "Grandmother cooked sinigang for the grandchildren."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "iniluluto",
+          "examples": [
+            {
+              "tagalog": "Iniluluto niya ang sopas para sa maysakit.",
+              "english": "She is cooking soup for the sick person."
+            },
+            {
+              "tagalog": "Iniluluto ng nanay ang kanin para sa hapunan.",
+              "english": "Mother is cooking rice for dinner."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "iluluto",
+          "examples": [
+            {
+              "tagalog": "Iluluto ko ang pansit para sa iyong kaarawan.",
+              "english": "I will cook pansit for your birthday."
+            },
+            {
+              "tagalog": "Iluluto niya ang adobo para sa buong pamilya bukas.",
+              "english": "She will cook adobo for the whole family tomorrow."
+            }
+          ]
+        }
+      }
+    }
+  }
+}

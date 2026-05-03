@@ -1,0 +1,65 @@
+{
+  "id": "laro",
+  "root": "laro",
+  "english": "to play",
+  "category": "work & leisure",
+  "focusTypes": {
+    "actor": {
+      "affix": "mag-",
+      "forms": {
+        "infinitive": {
+          "word": "maglaro",
+          "examples": [
+            {
+              "tagalog": "Gusto ng mga bata maglaro sa labas.",
+              "english": "The children want to play outside."
+            },
+            {
+              "tagalog": "Maglaro kayo nang mabuti.",
+              "english": "Play nicely."
+            }
+          ]
+        },
+        "completed": {
+          "word": "naglaro",
+          "examples": [
+            {
+              "tagalog": "Naglaro kami ng basketball kahapon.",
+              "english": "We played basketball yesterday."
+            },
+            {
+              "tagalog": "Naglaro ang mga bata sa parke buong hapon.",
+              "english": "The children played at the park all afternoon."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "naglalaro",
+          "examples": [
+            {
+              "tagalog": "Naglalaro ang mga bata sa bakuran.",
+              "english": "The children are playing in the yard."
+            },
+            {
+              "tagalog": "Naglalaro sila ng chess sa kanilang silid.",
+              "english": "They are playing chess in their room."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "maglaro",
+          "examples": [
+            {
+              "tagalog": "Maglaro kami ng sipa bukas.",
+              "english": "We will play sipa tomorrow."
+            },
+            {
+              "tagalog": "Maglaro sila ng basketball sa Sabado.",
+              "english": "They will play basketball on Saturday."
+            }
+          ]
+        }
+      }
+    }
+  }
+}

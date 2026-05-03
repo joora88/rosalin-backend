@@ -1,0 +1,123 @@
+{
+  "id": "kuha",
+  "root": "kuha",
+  "english": "to get / take / fetch",
+  "category": "daily actions",
+  "notes": "For um- verbs, the infinitive and completed forms are identical. Object focus uses -in, yielding 'kunin'.",
+  "focusTypes": {
+    "actor": {
+      "affix": "um-",
+      "forms": {
+        "infinitive": {
+          "word": "kumuha",
+          "examples": [
+            {
+              "tagalog": "Gusto kong kumuha ng tubig sa kusina.",
+              "english": "I want to get some water from the kitchen."
+            },
+            {
+              "tagalog": "Kumuha ka ng payong—baka umulan.",
+              "english": "Get an umbrella—it might rain."
+            }
+          ]
+        },
+        "completed": {
+          "word": "kumuha",
+          "examples": [
+            {
+              "tagalog": "Kumuha siya ng papel sa drawer.",
+              "english": "She got paper from the drawer."
+            },
+            {
+              "tagalog": "Kumuha kami ng tiket sa box office.",
+              "english": "We got tickets at the box office."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "kumukuha",
+          "examples": [
+            {
+              "tagalog": "Kumukuha siya ng pera sa ATM.",
+              "english": "He is getting money from the ATM."
+            },
+            {
+              "tagalog": "Kumukuha ang mga estudyante ng libro sa aklatan.",
+              "english": "The students are getting books from the library."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "kukuha",
+          "examples": [
+            {
+              "tagalog": "Kukuha ako ng pagkain sa kainan mamaya.",
+              "english": "I will get food from the cafeteria later."
+            },
+            {
+              "tagalog": "Kukuha siya ng gamot sa botika bukas.",
+              "english": "She will get medicine from the pharmacy tomorrow."
+            }
+          ]
+        }
+      }
+    },
+    "object": {
+      "affix": "-in",
+      "forms": {
+        "infinitive": {
+          "word": "kunin",
+          "examples": [
+            {
+              "tagalog": "Kunin mo ang bag ko sa kwarto.",
+              "english": "Get my bag from the room."
+            },
+            {
+              "tagalog": "Kailangan naming kunin ang mga dokumento sa opisina.",
+              "english": "We need to get the documents from the office."
+            }
+          ]
+        },
+        "completed": {
+          "word": "kinuha",
+          "examples": [
+            {
+              "tagalog": "Kinuha ng bata ang laruan ng kapatid niya.",
+              "english": "The child took his sibling's toy."
+            },
+            {
+              "tagalog": "Kinuha ko ang susi mula sa mesa.",
+              "english": "I got the key from the table."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "kinukuha",
+          "examples": [
+            {
+              "tagalog": "Kinukuha niya ang kanyang mga gamit sa bag.",
+              "english": "She is getting her things from the bag."
+            },
+            {
+              "tagalog": "Kinukuha ng mga bata ang kanilang mga libro.",
+              "english": "The children are getting their books."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "kukunin",
+          "examples": [
+            {
+              "tagalog": "Kukunin ko ang aking plato sa kusina.",
+              "english": "I will get my plate from the kitchen."
+            },
+            {
+              "tagalog": "Kukunin nila ang mga resulta bukas.",
+              "english": "They will get the results tomorrow."
+            }
+          ]
+        }
+      }
+    }
+  }
+}

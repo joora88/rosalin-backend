@@ -1,0 +1,180 @@
+{
+  "id": "dala",
+  "root": "dala",
+  "english": "to bring / carry",
+  "category": "daily actions",
+  "notes": "For mag- verbs, the infinitive and contemplated forms are identical. Object (-in) focuses on the thing brought. Beneficiary (i-) focuses on the thing brought on behalf of someone.",
+  "focusTypes": {
+    "actor": {
+      "affix": "mag-",
+      "forms": {
+        "infinitive": {
+          "word": "magdala",
+          "examples": [
+            {
+              "tagalog": "Kailangan kong magdala ng payong dahil maulap.",
+              "english": "I need to bring an umbrella because it is cloudy."
+            },
+            {
+              "tagalog": "Magdala ka ng pagkain para sa piknik.",
+              "english": "Bring food for the picnic."
+            }
+          ]
+        },
+        "completed": {
+          "word": "nagdala",
+          "examples": [
+            {
+              "tagalog": "Nagdala siya ng pasalubong mula sa Cebu.",
+              "english": "She brought souvenirs from Cebu."
+            },
+            {
+              "tagalog": "Nagdala ang mga estudyante ng kanilang proyekto.",
+              "english": "The students brought their projects."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "nagdadala",
+          "examples": [
+            {
+              "tagalog": "Nagdadala siya ng tanghalian papunta sa opisina araw-araw.",
+              "english": "She brings lunch to the office every day."
+            },
+            {
+              "tagalog": "Nagdadala ng pagkain ang organisasyon para sa mahihirap.",
+              "english": "The organization is bringing food for the poor."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "magdala",
+          "examples": [
+            {
+              "tagalog": "Magdala siya ng bulaklak para sa guro bukas.",
+              "english": "She will bring flowers for the teacher tomorrow."
+            },
+            {
+              "tagalog": "Magdala kami ng pagkain para sa salu-salo sa Sabado.",
+              "english": "We will bring food for the gathering on Saturday."
+            }
+          ]
+        }
+      }
+    },
+    "object": {
+      "affix": "-in",
+      "forms": {
+        "infinitive": {
+          "word": "dalhin",
+          "examples": [
+            {
+              "tagalog": "Dalhin mo ang libro sa aklatan.",
+              "english": "Bring the book to the library."
+            },
+            {
+              "tagalog": "Kailangan mong dalhin ang iyong ID sa opisina.",
+              "english": "You need to bring your ID to the office."
+            }
+          ]
+        },
+        "completed": {
+          "word": "dinala",
+          "examples": [
+            {
+              "tagalog": "Dinala niya ang ulam para sa nanay niya.",
+              "english": "She brought the food for her mother."
+            },
+            {
+              "tagalog": "Dinala ng katulong ang basura sa labas.",
+              "english": "The helper brought the trash outside."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "dinadala",
+          "examples": [
+            {
+              "tagalog": "Dinadala niya ang kanyang anak sa paaralan tuwing umaga.",
+              "english": "She brings her child to school every morning."
+            },
+            {
+              "tagalog": "Dinadala ng mga boluntaryo ang pagkain sa mga nasalanta.",
+              "english": "The volunteers are bringing food to the disaster victims."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "dadalhin",
+          "examples": [
+            {
+              "tagalog": "Dadalhin ko ang mga gamit sa bahay ng kaibigan bukas.",
+              "english": "I will bring the things to my friend's house tomorrow."
+            },
+            {
+              "tagalog": "Dadalhin nila ang mesa at upuan para sa handaan.",
+              "english": "They will bring the tables and chairs for the party."
+            }
+          ]
+        }
+      }
+    },
+    "beneficiary": {
+      "affix": "i-",
+      "forms": {
+        "infinitive": {
+          "word": "idala",
+          "examples": [
+            {
+              "tagalog": "Idala mo ang regalo sa lola.",
+              "english": "Bring the gift to grandmother."
+            },
+            {
+              "tagalog": "Idala mo ang pagkain para sa mahihirap.",
+              "english": "Bring the food for the poor."
+            }
+          ]
+        },
+        "completed": {
+          "word": "idinala",
+          "examples": [
+            {
+              "tagalog": "Idinala niya ang sulat para sa guro.",
+              "english": "She brought the letter for the teacher."
+            },
+            {
+              "tagalog": "Idinala ng kuya ang gamit ng kapatid sa paaralan.",
+              "english": "The older brother brought the sibling's things to school."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "idinadala",
+          "examples": [
+            {
+              "tagalog": "Idinadala niya ang tanghalian ng tatay araw-araw.",
+              "english": "She is bringing her father's lunch every day."
+            },
+            {
+              "tagalog": "Idinadala ng lalaki ang mga kahon para sa kumpanya.",
+              "english": "The man is bringing the boxes for the company."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "idadala",
+          "examples": [
+            {
+              "tagalog": "Idadala ko ang pasalubong para sa buong pamilya bukas.",
+              "english": "I will bring the souvenir for the whole family tomorrow."
+            },
+            {
+              "tagalog": "Idadala niya ang mga dokumento para sa abogado.",
+              "english": "She will bring the documents for the lawyer."
+            }
+          ]
+        }
+      }
+    }
+  }
+}

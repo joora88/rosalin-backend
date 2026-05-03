@@ -1,0 +1,65 @@
+{
+  "id": "alis",
+  "root": "alis",
+  "english": "to leave",
+  "category": "movement",
+  "focusTypes": {
+    "actor": {
+      "affix": "um-",
+      "forms": {
+        "infinitive": {
+          "word": "umalis",
+          "examples": [
+            {
+              "tagalog": "Gusto ko nang umalis.",
+              "english": "I want to leave already."
+            },
+            {
+              "tagalog": "Umalis ka bago umuulan.",
+              "english": "Leave before it rains."
+            }
+          ]
+        },
+        "completed": {
+          "word": "umalis",
+          "examples": [
+            {
+              "tagalog": "Umalis na siya nang maaga.",
+              "english": "She already left early."
+            },
+            {
+              "tagalog": "Umalis ang mga bisita pagkatapos ng hapunan.",
+              "english": "The guests left after dinner."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "umaalis",
+          "examples": [
+            {
+              "tagalog": "Umaalis siya tuwing alas-otso ng umaga.",
+              "english": "He leaves every day at eight in the morning."
+            },
+            {
+              "tagalog": "Umaalis na kami, ingat ka.",
+              "english": "We are leaving now, take care."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "aalis",
+          "examples": [
+            {
+              "tagalog": "Aalis kami bukas ng maaga.",
+              "english": "We will leave early tomorrow."
+            },
+            {
+              "tagalog": "Aalis ka ba sa Pilipinas?",
+              "english": "Will you leave the Philippines?"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "id": "linis",
+  "root": "linis",
+  "english": "to clean",
+  "category": "daily actions",
+  "notes": "For mag- verbs, the infinitive and contemplated forms are identical. Locative (-an) focuses on the place being cleaned.",
+  "focusTypes": {
+    "actor": {
+      "affix": "mag-",
+      "forms": {
+        "infinitive": {
+          "word": "maglinis",
+          "examples": [
+            {
+              "tagalog": "Kailangan naming maglinis ng bahay bago dumating ang mga bisita.",
+              "english": "We need to clean the house before the guests arrive."
+            },
+            {
+              "tagalog": "Maglinis ka ng kwarto mo bago maglaro.",
+              "english": "Clean your room before playing."
+            }
+          ]
+        },
+        "completed": {
+          "word": "naglinis",
+          "examples": [
+            {
+              "tagalog": "Naglinis kami ng bahay buong umaga.",
+              "english": "We cleaned the house all morning."
+            },
+            {
+              "tagalog": "Naglinis siya ng kotse nang Sabado.",
+              "english": "She cleaned the car on Saturday."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "naglilinis",
+          "examples": [
+            {
+              "tagalog": "Naglilinis ang katulong ng sala ngayon.",
+              "english": "The helper is cleaning the living room right now."
+            },
+            {
+              "tagalog": "Naglilinis siya ng bahay tuwing Sabado.",
+              "english": "He cleans the house every Saturday."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "maglinis",
+          "examples": [
+            {
+              "tagalog": "Maglinis siya ng opisina bukas.",
+              "english": "He will clean the office tomorrow."
+            },
+            {
+              "tagalog": "Maglinis kami ng paaralan pagkatapos ng klase.",
+              "english": "We will clean the school after class."
+            }
+          ]
+        }
+      }
+    },
+    "object": {
+      "affix": "-in",
+      "forms": {
+        "infinitive": {
+          "word": "linisin",
+          "examples": [
+            {
+              "tagalog": "Linisin mo ang iyong silid-tulugan.",
+              "english": "Clean your bedroom."
+            },
+            {
+              "tagalog": "Kailangan naming linisin ang buong bahay ngayong araw.",
+              "english": "We need to clean the whole house today."
+            }
+          ]
+        },
+        "completed": {
+          "word": "nilinis",
+          "examples": [
+            {
+              "tagalog": "Nilinis niya ang kanyang kwarto nang mabuti.",
+              "english": "She cleaned her room well."
+            },
+            {
+              "tagalog": "Nilinis ng katulong ang buong bahay.",
+              "english": "The helper cleaned the entire house."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "nililinis",
+          "examples": [
+            {
+              "tagalog": "Nililinis niya ang banyo ngayon.",
+              "english": "She is cleaning the bathroom right now."
+            },
+            {
+              "tagalog": "Nililinis ng mga estudyante ang kanilang silid-aralan.",
+              "english": "The students are cleaning their classroom."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "lilinisin",
+          "examples": [
+            {
+              "tagalog": "Lilinisin ko ang aking kwarto mamaya.",
+              "english": "I will clean my room later."
+            },
+            {
+              "tagalog": "Lilinisin namin ang bakuran bukas ng umaga.",
+              "english": "We will clean the yard tomorrow morning."
+            }
+          ]
+        }
+      }
+    },
+    "locative": {
+      "affix": "-an",
+      "forms": {
+        "infinitive": {
+          "word": "linisan",
+          "examples": [
+            {
+              "tagalog": "Linisan mo ang kwarto bago siya dumating.",
+              "english": "Clean the room before he arrives."
+            },
+            {
+              "tagalog": "Gusto kong linisan ang buong bahay ngayon.",
+              "english": "I want to clean the whole house today."
+            }
+          ]
+        },
+        "completed": {
+          "word": "nilinisan",
+          "examples": [
+            {
+              "tagalog": "Nilinisan nila ang buong paaralan para sa Fiesta.",
+              "english": "They cleaned the entire school for the Fiesta."
+            },
+            {
+              "tagalog": "Nilinisan niya ang kusina pagkatapos magluto.",
+              "english": "She cleaned the kitchen after cooking."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "nililinisan",
+          "examples": [
+            {
+              "tagalog": "Nililinisan ng katulong ang buong bahay ngayon.",
+              "english": "The helper is cleaning the whole house right now."
+            },
+            {
+              "tagalog": "Nililinisan niya ang sala at kwarto tuwing umaga.",
+              "english": "She cleans the living room and bedroom every morning."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "lilinisan",
+          "examples": [
+            {
+              "tagalog": "Lilinisan namin ang bahay sa Sabado.",
+              "english": "We will clean the house on Saturday."
+            },
+            {
+              "tagalog": "Lilinisan ng mga estudyante ang kanilang silid-aralan bukas.",
+              "english": "The students will clean their classroom tomorrow."
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "id": "tawag",
+  "root": "tawag",
+  "english": "to call",
+  "category": "common phrases",
+  "notes": "For um- verbs, the infinitive and completed forms are identical. The locative (-an) form focuses on the person being called.",
+  "focusTypes": {
+    "actor": {
+      "affix": "um-",
+      "forms": {
+        "infinitive": {
+          "word": "tumawag",
+          "examples": [
+            {
+              "tagalog": "Kailangan kong tumawag sa nanay ko.",
+              "english": "I need to call my mother."
+            },
+            {
+              "tagalog": "Tumawag ka sa akin pagdating mo.",
+              "english": "Call me when you arrive."
+            }
+          ]
+        },
+        "completed": {
+          "word": "tumawag",
+          "examples": [
+            {
+              "tagalog": "Tumawag siya sa akin kahapon ng hapon.",
+              "english": "She called me yesterday afternoon."
+            },
+            {
+              "tagalog": "Tumawag ang doktor upang sabihin ang resulta.",
+              "english": "The doctor called to give the results."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "tumatawag",
+          "examples": [
+            {
+              "tagalog": "Tumatawag siya sa akin tuwing gabi.",
+              "english": "He calls me every night."
+            },
+            {
+              "tagalog": "Tumatawag ang nanay niya tuwing Linggo.",
+              "english": "His mother calls every Sunday."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "tatawag",
+          "examples": [
+            {
+              "tagalog": "Tatawag ako sa iyo bukas ng umaga.",
+              "english": "I will call you tomorrow morning."
+            },
+            {
+              "tagalog": "Tatawag siya sa opisina para sa appointment.",
+              "english": "She will call the office for an appointment."
+            }
+          ]
+        }
+      }
+    },
+    "locative": {
+      "affix": "-an",
+      "forms": {
+        "infinitive": {
+          "word": "tawagan",
+          "examples": [
+            {
+              "tagalog": "Tawagan mo ang doktor kung lumala ang sakit.",
+              "english": "Call the doctor if the illness gets worse."
+            },
+            {
+              "tagalog": "Tawagan mo si Nanay para malaman niya na ligtas ka.",
+              "english": "Call Mother so she knows you are safe."
+            }
+          ]
+        },
+        "completed": {
+          "word": "tinawagan",
+          "examples": [
+            {
+              "tagalog": "Tinawagan niya ang kaibigan niya sa Amerika.",
+              "english": "She called her friend in America."
+            },
+            {
+              "tagalog": "Tinawagan ng pulis ang pamilya ng aksidentado.",
+              "english": "The police called the family of the accident victim."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "tinatawagan",
+          "examples": [
+            {
+              "tagalog": "Tinatawagan niya ang kanyang ina tuwing Linggo.",
+              "english": "She calls her mother every Sunday."
+            },
+            {
+              "tagalog": "Tinatawagan ng boss ang empleyado para sa pulong.",
+              "english": "The boss is calling the employee for a meeting."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "tatawagan",
+          "examples": [
+            {
+              "tagalog": "Tatawagan ko siya bukas para sa detalye.",
+              "english": "I will call her tomorrow for the details."
+            },
+            {
+              "tagalog": "Tatawagan ng guro ang mga magulang bukas.",
+              "english": "The teacher will call the parents tomorrow."
+            }
+          ]
+        }
+      }
+    }
+  }
+}

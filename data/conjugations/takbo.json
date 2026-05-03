@@ -1,0 +1,66 @@
+{
+  "id": "takbo",
+  "root": "takbo",
+  "english": "to run",
+  "category": "daily actions",
+  "notes": "For um- verbs, the infinitive and completed forms are identical.",
+  "focusTypes": {
+    "actor": {
+      "affix": "um-",
+      "forms": {
+        "infinitive": {
+          "word": "tumakbo",
+          "examples": [
+            {
+              "tagalog": "Gusto niyang tumakbo sa marathon.",
+              "english": "He wants to run in the marathon."
+            },
+            {
+              "tagalog": "Tumakbo ka papunta doon—wala nang panahon.",
+              "english": "Run there—there is no time left."
+            }
+          ]
+        },
+        "completed": {
+          "word": "tumakbo",
+          "examples": [
+            {
+              "tagalog": "Tumakbo siya nang mabilis papunta sa bus.",
+              "english": "She ran quickly to the bus."
+            },
+            {
+              "tagalog": "Tumakbo ang mga bata sa buong parke.",
+              "english": "The children ran across the whole park."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "tumatakbo",
+          "examples": [
+            {
+              "tagalog": "Tumatakbo siya sa umaga tuwing Lunes hanggang Biyernes.",
+              "english": "He runs in the morning every Monday to Friday."
+            },
+            {
+              "tagalog": "Tumatakbo ang mga bata sa bakuran.",
+              "english": "The children are running in the yard."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "tatakbo",
+          "examples": [
+            {
+              "tagalog": "Tatakbo siya sa race sa Linggo.",
+              "english": "She will run in the race on Sunday."
+            },
+            {
+              "tagalog": "Tatakbo kami sa parke bukas ng umaga.",
+              "english": "We will run at the park tomorrow morning."
+            }
+          ]
+        }
+      }
+    }
+  }
+}

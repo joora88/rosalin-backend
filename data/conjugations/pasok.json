@@ -1,0 +1,66 @@
+{
+  "id": "pasok",
+  "root": "pasok",
+  "english": "to enter / go to school or work",
+  "category": "daily actions",
+  "notes": "For um- verbs, the infinitive and completed forms are identical.",
+  "focusTypes": {
+    "actor": {
+      "affix": "um-",
+      "forms": {
+        "infinitive": {
+          "word": "pumasok",
+          "examples": [
+            {
+              "tagalog": "Kailangan mong pumasok sa paaralan bukas.",
+              "english": "You need to go to school tomorrow."
+            },
+            {
+              "tagalog": "Pumasok ka nang tahimik bago magsimula ang klase.",
+              "english": "Enter quietly before class begins."
+            }
+          ]
+        },
+        "completed": {
+          "word": "pumasok",
+          "examples": [
+            {
+              "tagalog": "Pumasok siya nang hindi nag-abiso.",
+              "english": "She went to work without notice."
+            },
+            {
+              "tagalog": "Pumasok ang mga estudyante nang mapayapa.",
+              "english": "The students entered peacefully."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "pumapasok",
+          "examples": [
+            {
+              "tagalog": "Pumapasok siya sa trabaho tuwing Lunes hanggang Biyernes.",
+              "english": "He goes to work every Monday to Friday."
+            },
+            {
+              "tagalog": "Pumapasok ang mga mag-aaral nang alas-siyete ng umaga.",
+              "english": "The students go to school at seven in the morning."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "papasok",
+          "examples": [
+            {
+              "tagalog": "Papasok siya sa bagong trabaho bukas.",
+              "english": "She will go to her new job tomorrow."
+            },
+            {
+              "tagalog": "Papasok ba kayo bukas kahit holiday?",
+              "english": "Will you go to work tomorrow even on a holiday?"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

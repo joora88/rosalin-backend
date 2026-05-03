@@ -1,0 +1,123 @@
+{
+  "id": "pili",
+  "root": "pili",
+  "english": "to choose / select",
+  "category": "daily actions",
+  "notes": "For um- verbs, the infinitive and completed forms are identical.",
+  "focusTypes": {
+    "actor": {
+      "affix": "um-",
+      "forms": {
+        "infinitive": {
+          "word": "pumili",
+          "examples": [
+            {
+              "tagalog": "Kailangan mong pumili ng iyong kurso sa kolehiyo.",
+              "english": "You need to choose your college course."
+            },
+            {
+              "tagalog": "Pumili ka ng gusto mong ulam.",
+              "english": "Choose the dish you want."
+            }
+          ]
+        },
+        "completed": {
+          "word": "pumili",
+          "examples": [
+            {
+              "tagalog": "Pumili siya ng pulang damit sa tindahan.",
+              "english": "She chose a red dress at the store."
+            },
+            {
+              "tagalog": "Pumili kami ng magandang lugar para sa piknik.",
+              "english": "We chose a beautiful place for the picnic."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "pumipili",
+          "examples": [
+            {
+              "tagalog": "Pumipili siya nang maingat bago bumili.",
+              "english": "She chooses carefully before buying."
+            },
+            {
+              "tagalog": "Pumipili ang mga estudyante ng kanilang grupo.",
+              "english": "The students are choosing their groups."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "pipili",
+          "examples": [
+            {
+              "tagalog": "Pipili siya ng bagong trabaho sa Lunes.",
+              "english": "She will choose a new job on Monday."
+            },
+            {
+              "tagalog": "Pipili kami ng pinakamabuting opsyon para sa pamilya.",
+              "english": "We will choose the best option for the family."
+            }
+          ]
+        }
+      }
+    },
+    "object": {
+      "affix": "-in",
+      "forms": {
+        "infinitive": {
+          "word": "piliin",
+          "examples": [
+            {
+              "tagalog": "Piliin mo ang pinakamaganda sa lahat.",
+              "english": "Choose the most beautiful of all."
+            },
+            {
+              "tagalog": "Kailangan mong piliin ang tamang sagot.",
+              "english": "You need to choose the correct answer."
+            }
+          ]
+        },
+        "completed": {
+          "word": "pinili",
+          "examples": [
+            {
+              "tagalog": "Pinili niya ang kulay pula para sa kanyang kwarto.",
+              "english": "She chose the color red for her room."
+            },
+            {
+              "tagalog": "Pinili ng koponan si Juan bilang lider.",
+              "english": "The team chose Juan as the leader."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "pinipili",
+          "examples": [
+            {
+              "tagalog": "Pinipili niya ang pinakamura sa lahat ng pagkain.",
+              "english": "She is choosing the cheapest among all the food."
+            },
+            {
+              "tagalog": "Pinipili ng lola ang pinaka-sariwang gulay sa palengke.",
+              "english": "Grandmother is choosing the freshest vegetables at the market."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "pipiliin",
+          "examples": [
+            {
+              "tagalog": "Pipiliin namin ang pinakamagandang disenyo bukas.",
+              "english": "We will choose the most beautiful design tomorrow."
+            },
+            {
+              "tagalog": "Pipiliin ng klase ang kanilang kinatawan sa Biyernes.",
+              "english": "The class will choose their representative on Friday."
+            }
+          ]
+        }
+      }
+    }
+  }
+}

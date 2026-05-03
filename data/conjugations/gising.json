@@ -1,0 +1,66 @@
+{
+  "id": "gising",
+  "root": "gising",
+  "english": "to wake up",
+  "category": "daily actions",
+  "notes": "For um- verbs, the infinitive and completed forms are identical.",
+  "focusTypes": {
+    "actor": {
+      "affix": "um-",
+      "forms": {
+        "infinitive": {
+          "word": "gumising",
+          "examples": [
+            {
+              "tagalog": "Gusto ng nanay na gumising nang maaga ang mga anak.",
+              "english": "The mother wants her children to wake up early."
+            },
+            {
+              "tagalog": "Huwag kang gumising nang huli.",
+              "english": "Don't wake up late."
+            }
+          ]
+        },
+        "completed": {
+          "word": "gumising",
+          "examples": [
+            {
+              "tagalog": "Gumising ako nang alas-singko ngayong umaga.",
+              "english": "I woke up at five o'clock this morning."
+            },
+            {
+              "tagalog": "Gumising siya nang maaga para sa trabaho.",
+              "english": "She woke up early for work."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "gumigising",
+          "examples": [
+            {
+              "tagalog": "Gumigising siya tuwing alas-sais ng umaga.",
+              "english": "He wakes up every day at six in the morning."
+            },
+            {
+              "tagalog": "Gumigising na ang mga bata—maririnig mo ang ingay nila.",
+              "english": "The children are waking up—you can hear the noise."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "gigising",
+          "examples": [
+            {
+              "tagalog": "Gigising ako nang maaga bukas para sa pulong.",
+              "english": "I will wake up early tomorrow for the meeting."
+            },
+            {
+              "tagalog": "Gigising ka ba nang alas-singko bukas?",
+              "english": "Will you wake up at five tomorrow?"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

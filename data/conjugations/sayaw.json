@@ -1,0 +1,66 @@
+{
+  "id": "sayaw",
+  "root": "sayaw",
+  "english": "to dance",
+  "category": "music",
+  "notes": "For mag- verbs, the infinitive and contemplated forms are identical.",
+  "focusTypes": {
+    "actor": {
+      "affix": "mag-",
+      "forms": {
+        "infinitive": {
+          "word": "magsayaw",
+          "examples": [
+            {
+              "tagalog": "Gusto niyang magsayaw ng tinikling.",
+              "english": "She wants to dance the tinikling."
+            },
+            {
+              "tagalog": "Magsayaw kayo nang maganda sa salu-salo.",
+              "english": "Dance beautifully at the party."
+            }
+          ]
+        },
+        "completed": {
+          "word": "nagsayaw",
+          "examples": [
+            {
+              "tagalog": "Nagsayaw sila ng pandanggo sa fiesta.",
+              "english": "They danced the pandanggo at the fiesta."
+            },
+            {
+              "tagalog": "Nagsayaw ang mga estudyante para sa contest.",
+              "english": "The students danced for the contest."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "nagsasayaw",
+          "examples": [
+            {
+              "tagalog": "Nagsasayaw ang mga bata sa programa.",
+              "english": "The children are dancing in the program."
+            },
+            {
+              "tagalog": "Nagsasayaw siya ng ballet tuwing weekend.",
+              "english": "She dances ballet every weekend."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "magsayaw",
+          "examples": [
+            {
+              "tagalog": "Magsayaw sila ng tinikling sa pista opisyal bukas.",
+              "english": "They will dance the tinikling at the fiesta tomorrow."
+            },
+            {
+              "tagalog": "Magsayaw ang aming grupo sa graduation ceremony.",
+              "english": "Our group will dance at the graduation ceremony."
+            }
+          ]
+        }
+      }
+    }
+  }
+}

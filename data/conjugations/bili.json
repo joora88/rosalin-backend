@@ -1,0 +1,179 @@
+{
+  "id": "bili",
+  "root": "bili",
+  "english": "to buy",
+  "category": "daily actions",
+  "focusTypes": {
+    "actor": {
+      "affix": "mag-",
+      "forms": {
+        "infinitive": {
+          "word": "magbili",
+          "examples": [
+            {
+              "tagalog": "Gusto kong magbili ng bagong sapatos.",
+              "english": "I want to buy new shoes."
+            },
+            {
+              "tagalog": "Magbili ka ng ulam sa palengke.",
+              "english": "Buy some food at the market."
+            }
+          ]
+        },
+        "completed": {
+          "word": "nagbili",
+          "examples": [
+            {
+              "tagalog": "Nagbili kami ng pagkain sa palengke.",
+              "english": "We bought food at the market."
+            },
+            {
+              "tagalog": "Nagbili siya ng bagong damit para sa fiesta.",
+              "english": "She bought new clothes for the fiesta."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "nagbibili",
+          "examples": [
+            {
+              "tagalog": "Nagbibili siya ng gulay tuwing Sabado.",
+              "english": "She buys vegetables every Saturday."
+            },
+            {
+              "tagalog": "Nagbibili kami ng prutas sa palengke.",
+              "english": "We are buying fruit at the market."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "magbili",
+          "examples": [
+            {
+              "tagalog": "Magbili kami ng pasalubong bukas.",
+              "english": "We will buy souvenirs tomorrow."
+            },
+            {
+              "tagalog": "Magbili siya ng tiket para sa sine.",
+              "english": "He will buy a ticket for the cinema."
+            }
+          ]
+        }
+      }
+    },
+    "object": {
+      "affix": "-in",
+      "forms": {
+        "infinitive": {
+          "word": "bilhin",
+          "examples": [
+            {
+              "tagalog": "Bilhin mo ang tinapay sa tindahan.",
+              "english": "Buy the bread at the store."
+            },
+            {
+              "tagalog": "Ano ang gusto mong bilhin?",
+              "english": "What do you want to buy?"
+            }
+          ]
+        },
+        "completed": {
+          "word": "binili",
+          "examples": [
+            {
+              "tagalog": "Binili ko ang bagong libro.",
+              "english": "I bought the new book."
+            },
+            {
+              "tagalog": "Binili ng tatay ang kotse para sa pamilya.",
+              "english": "Father bought the car for the family."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "binibili",
+          "examples": [
+            {
+              "tagalog": "Binibili niya ang gulay sa palengke.",
+              "english": "She is buying vegetables at the market."
+            },
+            {
+              "tagalog": "Binibili ng ina ang mga pangangailangan ng pamilya.",
+              "english": "The mother is buying the family's necessities."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "bibilhin",
+          "examples": [
+            {
+              "tagalog": "Bibilhin ko ang mga gamot bukas.",
+              "english": "I will buy the medicines tomorrow."
+            },
+            {
+              "tagalog": "Bibilhin nila ang bagong bahay sa probinsya.",
+              "english": "They will buy a new house in the province."
+            }
+          ]
+        }
+      }
+    },
+    "locative": {
+      "affix": "-an",
+      "forms": {
+        "infinitive": {
+          "word": "bilhan",
+          "examples": [
+            {
+              "tagalog": "Bilhan mo ang tindahan ng gulay.",
+              "english": "Buy vegetables from the store."
+            },
+            {
+              "tagalog": "Gusto kong bilhan ang palengke ng sariwang isda.",
+              "english": "I want to buy fresh fish from the market."
+            }
+          ]
+        },
+        "completed": {
+          "word": "binilhan",
+          "examples": [
+            {
+              "tagalog": "Binilhan namin ang tindahan ng maraming pagkain.",
+              "english": "We bought a lot of food from the store."
+            },
+            {
+              "tagalog": "Binilhan ng nanay ang palengke ng isda at gulay.",
+              "english": "Mother bought fish and vegetables from the market."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "binibilhan",
+          "examples": [
+            {
+              "tagalog": "Binibilhan namin ang palengke ng gulay tuwing umaga.",
+              "english": "We buy vegetables from the market every morning."
+            },
+            {
+              "tagalog": "Binibilhan niya ang tindahan ng tinapay araw-araw.",
+              "english": "She buys bread from the store every day."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "bibilhan",
+          "examples": [
+            {
+              "tagalog": "Bibilhan namin ang supermarket ng mga pangangailangan.",
+              "english": "We will buy supplies from the supermarket."
+            },
+            {
+              "tagalog": "Bibilhan niya ang palengke ng pagkain para sa handaan.",
+              "english": "She will buy food from the market for the party."
+            }
+          ]
+        }
+      }
+    }
+  }
+}

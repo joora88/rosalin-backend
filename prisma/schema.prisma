@@ -177,3 +177,64 @@ model SessionCard {
 
   @@map("session_cards")
 }
+
+enum FocusType {
+  actor
+  object
+  locative
+  beneficiary
+}
+
+enum Aspect {
+  infinitive
+  completed
+  incomplete
+  contemplated
+}
+
+model Verb {
+  id         String          @id
+  root       String
+  english    String
+  category   String
+  notes      String?
+  createdAt  DateTime        @default(now())
+  updatedAt  DateTime        @updatedAt
+  focusTypes VerbFocusType[]
+
+  @@map("verbs")
+}
+
+model VerbFocusType {
+  id      String    @id @default(uuid())
+  verbId  String
+  type    FocusType
+  affix   String
+  verb    Verb      @relation(fields: [verbId], references: [id], onDelete: Cascade)
+  forms   VerbForm[]
+
+  @@unique([verbId, type])
+  @@map("verb_focus_types")
+}
+
+model VerbForm {
+  id          String        @id @default(uuid())
+  focusTypeId String
+  aspect      Aspect
+  word        String
+  focusType   VerbFocusType @relation(fields: [focusTypeId], references: [id], onDelete: Cascade)
+  examples    VerbExample[]
+
+  @@unique([focusTypeId, aspect])
+  @@map("verb_forms")
+}
+
+model VerbExample {
+  id      String   @id @default(uuid())
+  formId  String
+  tagalog String
+  english String
+  form    VerbForm @relation(fields: [formId], references: [id], onDelete: Cascade)
+
+  @@map("verb_examples")
+}

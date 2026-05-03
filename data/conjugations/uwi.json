@@ -1,0 +1,66 @@
+{
+  "id": "uwi",
+  "root": "uwi",
+  "english": "to go home / return home",
+  "category": "daily actions",
+  "notes": "For um- verbs, the infinitive and completed forms are identical.",
+  "focusTypes": {
+    "actor": {
+      "affix": "um-",
+      "forms": {
+        "infinitive": {
+          "word": "umuwi",
+          "examples": [
+            {
+              "tagalog": "Gusto ko nang umuwi—pagod na ako.",
+              "english": "I want to go home already—I am tired."
+            },
+            {
+              "tagalog": "Umuwi na kayo bago umuulan.",
+              "english": "Go home now before it rains."
+            }
+          ]
+        },
+        "completed": {
+          "word": "umuwi",
+          "examples": [
+            {
+              "tagalog": "Umuwi siya nang maaga kagabi.",
+              "english": "She went home early last night."
+            },
+            {
+              "tagalog": "Umuwi na kami pagkatapos ng salu-salo.",
+              "english": "We already went home after the gathering."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "umuuwi",
+          "examples": [
+            {
+              "tagalog": "Umuuwi siya tuwing alas-singko ng hapon.",
+              "english": "He goes home every day at five in the afternoon."
+            },
+            {
+              "tagalog": "Umuuwi na ang mga bisita—masaya ang handaan.",
+              "english": "The guests are going home—the party was fun."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "uuwi",
+          "examples": [
+            {
+              "tagalog": "Uuwi kami sa probinsya sa katapusan ng buwan.",
+              "english": "We will go home to the province at the end of the month."
+            },
+            {
+              "tagalog": "Uuwi siya nang maaga bukas.",
+              "english": "She will go home early tomorrow."
+            }
+          ]
+        }
+      }
+    }
+  }
+}

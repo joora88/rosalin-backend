@@ -1,0 +1,66 @@
+{
+  "id": "punta",
+  "root": "punta",
+  "english": "to go",
+  "category": "daily actions",
+  "notes": "For um- verbs, the infinitive and completed forms are identical.",
+  "focusTypes": {
+    "actor": {
+      "affix": "um-",
+      "forms": {
+        "infinitive": {
+          "word": "pumunta",
+          "examples": [
+            {
+              "tagalog": "Gusto kong pumunta sa Boracay ngayong tag-init.",
+              "english": "I want to go to Boracay this summer."
+            },
+            {
+              "tagalog": "Pumunta ka sa palengke at bumili ng gulay.",
+              "english": "Go to the market and buy vegetables."
+            }
+          ]
+        },
+        "completed": {
+          "word": "pumunta",
+          "examples": [
+            {
+              "tagalog": "Pumunta kami sa Maynila noong nakaraang linggo.",
+              "english": "We went to Manila last week."
+            },
+            {
+              "tagalog": "Pumunta siya sa doktor dahil may sakit siya.",
+              "english": "She went to the doctor because she was sick."
+            }
+          ]
+        },
+        "incomplete": {
+          "word": "pumupunta",
+          "examples": [
+            {
+              "tagalog": "Pumupunta siya sa simbahan tuwing Linggo.",
+              "english": "She goes to church every Sunday."
+            },
+            {
+              "tagalog": "Pumupunta kami sa palengke tuwing Sabado ng umaga.",
+              "english": "We go to the market every Saturday morning."
+            }
+          ]
+        },
+        "contemplated": {
+          "word": "pupunta",
+          "examples": [
+            {
+              "tagalog": "Pupunta kami sa probinsya sa Pasko.",
+              "english": "We will go to the province at Christmas."
+            },
+            {
+              "tagalog": "Pupunta siya sa Maynila bukas ng hapon.",
+              "english": "She will go to Manila tomorrow afternoon."
+            }
+          ]
+        }
+      }
+    }
+  }
+}
